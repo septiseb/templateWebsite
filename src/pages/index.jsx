@@ -13,12 +13,10 @@ export default function Login() {
         <SEO />
       </Head>
       <body>
-        <nav>
           <NavBar />
-        </nav>
-        <Features />
-        <FAQS /> 
-        <Contact />
+          <Features />
+          <FAQS />
+          <Contact />
       </body>
       <footer>
         <Footer />
