@@ -16,34 +16,27 @@ export default function Contact() {
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>
-                <dt className="sr-only">Postal address</dt>
+                <dt className="sr-only">Dirección</dt>
                 <dd>
                   <p>742 Evergreen Terrace</p>
                   <p>Springfield, OR 12345</p>
                 </dd>
               </div>
               <div className="mt-6">
-                <dt className="sr-only">Phone number</dt>
+                <dt className="sr-only">Teléfono</dt>
                 <dd className="flex">
                   <PhoneIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">+1 (555) 123-4567</span>
+                  <span className="ml-3">+52 (461) 116-6537</span>
                 </dd>
               </div>
               <div className="mt-3">
-                <dt className="sr-only">Email</dt>
+                <dt className="sr-only">Correo</dt>
                 <dd className="flex">
                   <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
                   <span className="ml-3">support@example.com</span>
                 </dd>
               </div>
             </dl>
-            <p className="mt-6 text-base text-gray-500">
-              Looking for careers?{' '}
-              <a href="#" className="font-medium text-gray-700 underline">
-                View all job openings
-              </a>
-              .
-            </p>
           </div>
         </div>
         <div className="bg-white px-6 py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
@@ -59,7 +52,7 @@ export default function Contact() {
                   id="full-name"
                   autoComplete="name"
                   className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Full name"
+                  placeholder="Nombre Completo"
                 />
               </div>
               <div>
@@ -72,7 +65,7 @@ export default function Contact() {
                   id="phone"
                   autoComplete="tel"
                   className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Phone"
+                  placeholder="Teléfono"
                 />
               </div>
               <div>
@@ -84,7 +77,7 @@ export default function Contact() {
                   name="message"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Message"
+                  placeholder="Escribir mensaje"
                   defaultValue={''}
                 />
               </div>
@@ -93,7 +86,7 @@ export default function Contact() {
                   type="submit"
                   className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
-                  Submit
+                  Enviar
                 </button>
               </div>
             </form>

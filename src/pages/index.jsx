@@ -2,6 +2,7 @@ import Contact from '@/components/Contact'
 import FAQS from '@/components/FAQS'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
+import Maps from '@/components/Maps'
 import NavBar from '@/components/NavBar'
 import SEO from '@/components/SEO'
 import Head from 'next/head'
@@ -13,12 +14,12 @@ export default function Login() {
         <SEO />
       </Head>
       <body>
-        <nav>
           <NavBar />
-        </nav>
-        <Features />
-        <FAQS /> 
-        <Contact />
+          <Hero />
+          <Features features={""} />
+          <FAQS faqs={""} />
+          <Contact contact={""} />
+          <Maps maps={""} />
       </body>
       <footer>
         <Footer />
