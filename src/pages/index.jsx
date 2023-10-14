@@ -6,20 +6,22 @@ import Hero from '@/components/Hero'
 import Maps from '@/components/Maps'
 import NavBar from '@/components/NavBar'
 import SEO from '@/components/SEO'
+import WhatsApp from '@/components/WhatsApp'
 import Head from 'next/head'
 
 export default function Login() {
   return (
     <>
       <Head>
-        <SEO />
+        
       </Head>
           <NavBar />
           <Hero />
           <Features features={""} />
-          <FAQS faqs={""} />
           <Contact contact={""} />
-          <Maps maps={""} />
+          <Maps placeId={"ChIJLU7jZClu5kcR4PcOOO6p3I0"} />
+          {/*<FAQS />*/}
+          <WhatsApp />
       <footer>
         <Footer />
       </footer>

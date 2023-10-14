@@ -26,7 +26,7 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-gray-50 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto lg:text-left">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">Nosotros</h2>

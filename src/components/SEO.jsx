@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function SEO ({
+export default function SEO ({
   title,
   description,
   keywords,
