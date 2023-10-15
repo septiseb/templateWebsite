@@ -10,9 +10,6 @@ export default function Hero() {
                 className="absolute left-1/2 top-1/2 -ml-16 "
                 aria-hidden="true"
               >
-                <div
-                  className="aspect-[1097/845] w-[68.5625rem] "
-                />
               </div>
               <figure className="relative isolate">
                 <svg
@@ -42,9 +39,9 @@ export default function Hero() {
           </div>
           <div>
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-600">Company values</p>
+              <p className="text-base font-semibold leading-7 text-indigo-600">Empresa</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                On a mission to empower remote teams
+                Latido
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">

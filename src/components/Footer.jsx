@@ -1,6 +1,7 @@
 const navigation = [
     {
       name: 'Facebook',
+      visible:true,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -14,6 +15,7 @@ const navigation = [
     },
     {
       name: 'Instagram',
+      visible:true,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -27,6 +29,7 @@ const navigation = [
     },
     {
       name: 'Twitter',
+      visible:true,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -36,6 +39,7 @@ const navigation = [
     },
     {
       name: 'GitHub',
+      visible:true,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -49,6 +53,7 @@ const navigation = [
     },
     {
       name: 'YouTube',
+      visible:true,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
