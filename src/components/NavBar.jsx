@@ -1,12 +1,11 @@
 import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { PlusIcon } from '@heroicons/react/20/solid'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import ValidationBadge from './ValidationBadge'
 import PhoneCall from './CTA/PhoneCall'
 import GetDirections from './CTA/GetDirections'
 
 
-export default function NavBar({}) {
+export default function NavBar({phoneNumber, placeId}) {
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -59,7 +58,7 @@ export default function NavBar({}) {
               </div>
               <div className="flex items-center gap-x-1.5">
                 <PhoneCall phoneNumber={phoneNumber} />
-                <GetDirections />    
+                <GetDirections placeId={placeId} />    
               </div>
             </div>
           </div>

@@ -1,7 +1,8 @@
 
+import Head from 'next/head';
 import React from 'react';
 
-const addProductJsonLd = (business) => {
+const addJsonLd = (business) => {
 const businessSchema = `
 {
   "@context": "http://schema.org",
@@ -38,7 +39,7 @@ export default function SEO ({
  business
 }) {
   return (
-    <>
+    <Head>
       {/* Meta Tags */}
       <title>{business.title}</title>
       <meta name="description" content={business.description} />
@@ -52,10 +53,10 @@ export default function SEO ({
       <meta property="og:url" content={business.url} />
       <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={addProductJsonLd(business)}
+          dangerouslySetInnerHTML={addJsonLd(business)}
           key="product-jsonld"
         />
-    </>
+    </Head>
   );
 };
 

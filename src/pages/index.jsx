@@ -10,28 +10,30 @@ import SEO from '@/components/SEO'
 import WhatsApp from '@/components/CTA/WhatsApp'
 import Head from 'next/head'
 //Information of the Business to Populate Website
-import { business, testimonial, placeId, phoneNumber, email } from '@/services/business'
-
-
+import {
+  business,
+  testimonial,
+  placeId,
+  phoneNumber,
+  email,
+} from '@/services/business'
 
 export default function Login() {
   return (
     <>
-      <Head>
-        <SEO business={business} /> 
-      </Head>
-          <NavBar placeId={placeId} phoneNumber={phoneNumber} />
-          <Hero business={business}>
-          <ReviewCard testimonial={testimonial} />
-          <ReviewCard testimonial={testimonial} />
-          <ReviewCard testimonial={testimonial} />
-          <ReviewCard testimonial={testimonial} />
-          </Hero>
-          <Features features={""} />
-          <Contact phoneNumber={phoneNumber} email={email} />
-          <Maps placeId={"ChIJLU7jZClu5kcR4PcOOO6p3I0"} />
-          <FAQS />
-          <WhatsApp phoneNumber={phoneNumber}/>
+      <SEO business={business} />
+      <NavBar placeId={placeId} phoneNumber={phoneNumber} />
+      <Hero business={business}>
+        <ReviewCard testimonial={testimonial} />
+        <ReviewCard testimonial={testimonial} />
+        <ReviewCard testimonial={testimonial} />
+        <ReviewCard testimonial={testimonial} />
+      </Hero>
+      <Features features={''} />
+      <Contact phoneNumber={phoneNumber} email={email} />
+      <Maps placeId={'ChIJLU7jZClu5kcR4PcOOO6p3I0'} />
+      <FAQS />
+      <WhatsApp phoneNumber={phoneNumber} />
       <footer>
         <Footer />
       </footer>
@@ -40,7 +42,6 @@ export default function Login() {
 }
 
 export async function getServerSideProps() {
-
   // Pass data to the page via props
-  return { props: {data: "data" } }
+  return { props: { data: 'data' } }
 }
