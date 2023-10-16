@@ -1,4 +1,4 @@
-export default function Hero({children, company}) {
+export default function Hero({children, business}) {
   return (
     <div className="bg-white py-12 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -12,11 +12,11 @@ export default function Hero({children, company}) {
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
               <p className="text-base text-lg font-semibold leading-7 text-indigo-600">Empresa</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                {company.name}
+                {business.title}
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6 text-lg">
-                 {company.description}
+                 {business.description}
                 </p>
               </div>
             </div>
