@@ -30,7 +30,7 @@ const businessSchema = `
 
 // Then you can use businessSchema in your component as needed.
 
- return businessSchema
+ return {__html:businessSchema}
  
 }
 
@@ -52,7 +52,7 @@ export default function SEO ({
       <meta property="og:url" content={business.url} />
       <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={addProductJsonLd()}
+          dangerouslySetInnerHTML={addProductJsonLd(business)}
           key="product-jsonld"
         />
     </>
