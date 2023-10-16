@@ -67,7 +67,7 @@ export default function Contact({ email, phoneNumber }) {
                   name="full-name"
                   id="full-name"
                   autoComplete="name"
-                  className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-gray-500 focus:ring-gray-500"
                   placeholder="Nombre Completo"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -81,7 +81,7 @@ export default function Contact({ email, phoneNumber }) {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-gray-500 focus:ring-gray-500"
                   placeholder="Escribir mensaje"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
@@ -90,7 +90,7 @@ export default function Contact({ email, phoneNumber }) {
               <div>
                 <button
                   type="submit"
-                  className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="inline-flex justify-center rounded-md border border-transparent bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                 >
                   Enviar
                 </button>

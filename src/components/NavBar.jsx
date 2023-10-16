@@ -16,7 +16,7 @@ export default function NavBar() {
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Abrir Menu</span>
                     {open ? (
@@ -30,10 +30,10 @@ export default function NavBar() {
                   <ValidationBadge />
                 </div>
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
-                  {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
+                  {/* Current: "border-gray-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-lg font-medium text-gray-900"
+                    className="inline-flex items-center border-b-2 border-gray-500 px-1 pt-1 text-lg font-medium text-gray-900"
                   >
                     Inicio
                   </a>
@@ -66,11 +66,11 @@ export default function NavBar() {
 
           <Disclosure.Panel className="md:hidden">
             <div className="space-y-1 pb-3 pt-2">
-              {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+              {/* Current: "bg-gray-50 border-gray-500 text-gray-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700 sm:pl-5 sm:pr-6"
+                className="block border-l-4 border-gray-500 bg-gray-50 py-2 pl-3 pr-4 text-base font-medium text-gray-700 sm:pl-5 sm:pr-6"
               >
                 Inicio
               </Disclosure.Button>

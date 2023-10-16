@@ -10,7 +10,7 @@ export default function Hero({children, business}) {
           </div>
           <div>
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p className="text-base text-lg font-semibold leading-7 text-indigo-600">Empresa</p>
+              <p className="text-base text-lg font-semibold leading-7 text-gray-600">Empresa</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 {business.title}
               </h1>
