@@ -8,7 +8,6 @@ import NavBar from '@/components/NavBar'
 import ReviewCard from '@/components/ReviewCard'
 import SEO from '@/components/SEO'
 import WhatsApp from '@/components/CTA/WhatsApp'
-import Head from 'next/head'
 //Information of the Business to Populate Website
 import {
   business,
@@ -28,7 +27,7 @@ export default function Login() {
       </Hero>
       <Features features={business.features} />
       <Contact phoneNumber={business.phone} email={business.email} />
-      <Maps placeId={'ChIJLU7jZClu5kcR4PcOOO6p3I0'} />
+      <Maps placeId={placeId} />
       <FAQS faqs={faqs} />
       <WhatsApp phoneNumber={business.phone} />
       <footer>
