@@ -1,7 +1,19 @@
+import React, { useState } from 'react';
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
-import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+export default function Contact({ email, phoneNumber }) {
+  const [name, setName] = useState('');
+  const [message, setMessage] = useState('');
 
-export default function Contact({email, phone}) {
+  const handleWhatsAppRedirect = (e) => {
+    e.preventDefault();
+
+    const compiledMessage = `Hola, soy ${name}. ${message}`;
+    const whatsAppURL = `https://wa.me/521${phoneNumber}?text=${encodeURIComponent(compiledMessage)}`;
+
+    window.location.href = whatsAppURL;
+  };
+
   return (
     <div id="contact" className="relative bg-white">
       <div className="absolute inset-0">
@@ -10,22 +22,30 @@ export default function Contact({email, phone}) {
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
         <div className="px-6 py-16 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="mx-auto max-w-lg">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Mándanos un Mensaje:</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+              Mándanos un Mensaje:
+            </h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Ponte en contacto con nosotros para más información:
+              Ponte en contacto con nosotros para más información, será un placer poderte ayudar:
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div className="mt-6">
                 <dt className="sr-only">Teléfono</dt>
                 <dd className="flex">
-                  <PhoneIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">+52 {phone}</span>
+                  <PhoneIcon
+                    className="h-6 w-6 flex-shrink-0 text-gray-400"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3">+52 {phoneNumber}</span>
                 </dd>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Correo</dt>
                 <dd className="flex">
-                  <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
+                  <EnvelopeIcon
+                    className="h-6 w-6 flex-shrink-0 text-gray-400"
+                    aria-hidden="true"
+                  />
                   <span className="ml-3">{email}</span>
                 </dd>
               </div>
@@ -34,10 +54,13 @@ export default function Contact({email, phone}) {
         </div>
         <div className="bg-white px-6 py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
           <div className="mx-auto max-w-lg lg:max-w-none">
-            <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
+            <form
+              onSubmit={handleWhatsAppRedirect}
+              className="grid grid-cols-1 gap-y-6"
+            >
               <div>
                 <label htmlFor="full-name" className="sr-only">
-                  Nombre Completo 
+                  Nombre Completo
                 </label>
                 <input
                   type="text"
@@ -46,24 +69,13 @@ export default function Contact({email, phone}) {
                   autoComplete="name"
                   className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                   placeholder="Nombre Completo"
-                />
-              </div>
-              <div>
-                <label htmlFor="phone" className="sr-only">
-                  Teléfono
-                </label>
-                <input
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  autoComplete="tel"
-                  className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="Teléfono"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
               <div>
                 <label htmlFor="message" className="sr-only">
-                  Mensaje   
+                  Mensaje
                 </label>
                 <textarea
                   id="message"
@@ -71,7 +83,8 @@ export default function Contact({email, phone}) {
                   rows={4}
                   className="block w-full rounded-md border-gray-300 px-4 py-3 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                   placeholder="Escribir mensaje"
-                  defaultValue={''}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
               <div>

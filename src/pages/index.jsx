@@ -33,9 +33,8 @@ export default function Login() {
   return (
     <>
       <Head>
-        
       </Head>
-          <NavBar placeId={""} phoneNumber={""} />
+          <NavBar placeId={"ChIJLU7jZClu5kcR4PcOOO6p3I0"} phoneNumber={"4611166531"} />
           <Hero company={company}>
           <ReviewCard testimonial={testimonial} />
           <ReviewCard testimonial={testimonial} />
@@ -43,11 +42,10 @@ export default function Login() {
           <ReviewCard testimonial={testimonial} />
           </Hero>
           <Features features={""} />
-          <Contact contact={contact} />
+          <Contact phoneNumber={"4611166531"} email={"contact@fluxsales.co"} />
           <Maps placeId={"ChIJLU7jZClu5kcR4PcOOO6p3I0"} />
-          <GoogleCard />
           <FAQS />
-          <WhatsApp />
+          <WhatsApp phoneNumber={""}/>
       <footer>
         <Footer />
       </footer>
