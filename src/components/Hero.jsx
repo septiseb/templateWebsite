@@ -17,7 +17,7 @@ export default function Hero({children, business}) {
             </div>
           </div>
           <div className="lg:pr-4">
-          <div className="review-container grid grid-cols-1 lg:grid-cols-2">           
+          <div className="review-container grid grid-cols-1 lg:grid-cols-2 place-items-center">           
              {children}
             </div>
           </div>

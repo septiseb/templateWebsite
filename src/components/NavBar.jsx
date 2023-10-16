@@ -6,7 +6,7 @@ import PhoneCall from './CTA/PhoneCall'
 import GetDirections from './CTA/GetDirections'
 
 
-export default function NavBar() {
+export default function NavBar({}) {
   return (
     <Disclosure as="nav" className="bg-white shadow">
       {({ open }) => (
@@ -58,7 +58,7 @@ export default function NavBar() {
                 </div>
               </div>
               <div className="flex items-center gap-x-1.5">
-                <PhoneCall />
+                <PhoneCall phoneNumber={phoneNumber} />
                 <GetDirections />    
               </div>
             </div>
