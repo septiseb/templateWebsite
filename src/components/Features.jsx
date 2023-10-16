@@ -1,4 +1,4 @@
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import { TrophyIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
@@ -6,27 +6,27 @@ const features = [
     description:
       'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
     href: '#',
-    icon: CloudArrowUpIcon,
+    icon: TrophyIcon,
   },
   {
     name: 'SSL certificates',
     description:
       'Pellentesque enim a commodProductoso malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
     href: '#',
-    icon: LockClosedIcon,
+    icon: TrophyIcon,
   },
   {
     name: 'Simple queues',
     description:
       'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
     href: '#',
-    icon: ArrowPathIcon,
+    icon: TrophyIcon,
   },
 ]
 
 export default function Features() {
   return (
-    <div className="bg-gray-50 py-12 sm:py-16">
+    <div id="products" className="bg-gray-100 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto lg:text-left">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">Nosotros</h2>
@@ -43,11 +43,7 @@ export default function Features() {
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                  <p className="flex-auto">{feature.description}</p>
-                  <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
-                      Pedir Información <span aria-hidden="true">→</span>
-                    </a>
+                  <p className="flex-auto">{feature.description}
                   </p>
                 </dd>
               </div>

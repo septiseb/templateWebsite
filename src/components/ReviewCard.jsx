@@ -2,7 +2,7 @@ import { StarIcon } from '@heroicons/react/20/solid'
 
 export default function ReviewCard({ testimonial }) {
   return (
-    <div className="w-12">
+    <div className="w-80">
       <figure
         key={testimonial.author.handle}
         className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"

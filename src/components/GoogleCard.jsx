@@ -1,15 +1,12 @@
-import React from 'react';
+import Image from "next/image";
 
 function ThreeSections() {
     return (
-        <div className="h-screen w-full flex flex-col md:flex-row">
+        <div className="h-1/2 w-full flex flex-col md:flex-row">
             {/* Section 1 */}
             <div className="flex-1 bg-blue-200 md:border-r md:border-blue-500">
-                <div className="h-full flex items-center justify-center">
-                    Content for Section 1
-                </div>
+               <Image src="" />
             </div>
-
             {/* Section 2 */}
             <div className="flex-1 bg-green-200 md:border-r md:border-green-500">
                 <div className="h-full flex items-center justify-center">
