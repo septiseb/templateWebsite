@@ -1,30 +1,4 @@
-import { TrophyIcon } from '@heroicons/react/20/solid'
-
-const features = [
-  {
-    name: 'Push to deploy',
-    description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
-    href: '#',
-    icon: TrophyIcon,
-  },
-  {
-    name: 'SSL certificates',
-    description:
-      'Pellentesque enim a commodProductoso malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
-    href: '#',
-    icon: TrophyIcon,
-  },
-  {
-    name: 'Simple queues',
-    description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
-    href: '#',
-    icon: TrophyIcon,
-  },
-]
-
-export default function Features() {
+export default function Features({features}) {
   return (
     <div id="products" className="bg-gray-100 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

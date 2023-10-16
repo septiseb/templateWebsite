@@ -8,11 +8,9 @@ export default function ReviewCard({ testimonial }) {
         className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"
       >
         <div className="flex gap-x-1 text-amber-400">
-          <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
-          <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
-          <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
-          <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
-          <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+          {Array.from({ length: testimonial.rating }).map((_, index) => (
+            <StarIcon key={index} className="h-5 w-5 flex-none" aria-hidden="true" />
+          ))}
         </div>
         <blockquote className="text-gray-900">
           <p>{`“${testimonial.body}”`}</p>

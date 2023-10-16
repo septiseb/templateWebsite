@@ -52,7 +52,7 @@ export default function Contact({ email, phoneNumber }) {
             </dl>
           </div>
         </div>
-        <div className="bg-white px-6 py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
+        <div className="bg-white px-6 pb-8 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
           <div className="mx-auto max-w-lg lg:max-w-none">
             <form
               onSubmit={handleWhatsAppRedirect}

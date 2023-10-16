@@ -12,28 +12,25 @@ import Head from 'next/head'
 //Information of the Business to Populate Website
 import {
   business,
-  testimonial,
   placeId,
-  phoneNumber,
-  email,
+  faqs
 } from '@/services/business'
 
 export default function Login() {
   return (
     <>
       <SEO business={business} />
-      <NavBar placeId={placeId} phoneNumber={phoneNumber} />
+      <NavBar placeId={placeId} phoneNumber={business.phone} />
       <Hero business={business}>
-        <ReviewCard testimonial={testimonial} />
-        <ReviewCard testimonial={testimonial} />
-        <ReviewCard testimonial={testimonial} />
-        <ReviewCard testimonial={testimonial} />
+        {business.testimonials.map((testimonial) => (
+          <ReviewCard testimonial={testimonial} />
+        ))}
       </Hero>
-      <Features features={''} />
-      <Contact phoneNumber={phoneNumber} email={email} />
+      <Features features={business.features} />
+      <Contact phoneNumber={business.phone} email={business.email} />
       <Maps placeId={'ChIJLU7jZClu5kcR4PcOOO6p3I0'} />
-      <FAQS />
-      <WhatsApp phoneNumber={phoneNumber} />
+      <FAQS faqs={faqs} />
+      <WhatsApp phoneNumber={business.phone} />
       <footer>
         <Footer />
       </footer>
