@@ -14,6 +14,7 @@ import {
   placeId,
   faqs
 } from '@/services/business'
+import Galery from '@/components/Galery'
 
 export default function Login() {
   return (
@@ -25,6 +26,7 @@ export default function Login() {
           <ReviewCard testimonial={testimonial} />
         ))}
       </Hero>
+      <Galery />
       <Features features={business.features} />
       <Contact phoneNumber={business.phone} email={business.email} />
       <Maps placeId={placeId} />

@@ -1,35 +1,51 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-    title: '',
-    description: '',
-    keywords: '',
-    author: '',
-    email: '',
+    title: 'Latido',
+    description: '¡Bienvenido a Latido! Somos tu tienda de accesorios para mujer con precios competitivos. Explora nuestra amplia gama de bisutería y maquillaje, incluyendo esmaltes, aretes, collares y chapa de oro. Trabajamos con marcas reconocidas como Prosa, Bissu y Saniye, garantizando calidad y estilo en cada pieza. Ya sea para tu look diario o una ocasión especial, encuentra el complemento perfecto en Latido y realza tu estilo con nuestras opciones irresistibles. Latido te ofrece la combinación perfecta de moda y asequibilidad. Nuestra colección está cuidadosamente seleccionada para brindarte variedad y calidad en cada elección. Desde esmaltes vibrantes hasta maquillaje de tendencia, nuestros productos resaltarán tu belleza única.',
+    keywords: 'Bisuteria, Cosmeticos, Maquillaje, Aretes, Collares, Chapa de Oro',
+    author: 'Latido',
+    email: 'arum_15@hotmail.com',
     image: '',
-    url: '',
-    businessName: '',
+    url: 'latido.netlify.com',
+    businessName: 'Latido',
     address: {
       streetAddress: '',
       addressLocality: '',
       addressRegion: '',
-      postalCode: '',
-      addressCountry: '',
+      postalCode: '76168 ',
+      addressCountry: 'Mexico',
     },
-    phone: '',
+    phone: '4626059572',
     geo: {
       latitude: '',
       longitude: '',
     },
-    openingHours: '',
+    openingHours: 'Mo,Tu,We,Th,Fr 10:00-8:30',
     socialLinks: [],
     testimonials: [{
-      body: '',
-      rating: null,
+      body: 'La última vez que fui hice muy buenas compras, me encantan los artículos de Latido 😍',
+      rating: 5,
       author: {
-        name: '',
-        handle: '',
-        imageUrl: '',
+        name: 'Fabiola Mendoza Calderón',
+      },
+    },{
+      body: 'La última vez que fui hice muy buenas compras, me encantan los artículos de Latido 😍',
+      rating: 5,
+      author: {
+        name: 'Fabiola Mendoza Calderón',
+      },
+    },{
+      body: 'La última vez que fui hice muy buenas compras, me encantan los artículos de Latido 😍',
+      rating: 5,
+      author: {
+        name: 'Fabiola Mendoza Calderón',
+      },
+    },{
+      body: 'La última vez que fui hice muy buenas compras, me encantan los artículos de Latido 😍',
+      rating: 5,
+      author: {
+        name: 'Fabiola Mendoza Calderón',
       },
     }],
     features: [
