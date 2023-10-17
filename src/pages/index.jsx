@@ -11,8 +11,6 @@ import WhatsApp from '@/components/CTA/WhatsApp'
 //Information of the Business to Populate Website
 import {
   business,
-  placeId,
-  faqs
 } from '@/services/business'
 import Galery from '@/components/Galery'
 
@@ -20,17 +18,17 @@ export default function Login() {
   return (
     <>
       <SEO business={business} />
-      <NavBar placeId={placeId} phoneNumber={business.phone} />
+      <NavBar placeId={business.placeId} phoneNumber={business.phone} />
       <Hero business={business}>
         {business.testimonials.map((testimonial) => (
           <ReviewCard testimonial={testimonial} />
         ))}
       </Hero>
-      <Galery />
+      <Galery images={business.images} />
       <Features features={business.features} />
       <Contact phoneNumber={business.phone} email={business.email} />
-      <Maps placeId={placeId} />
-      <FAQS faqs={faqs} />
+      <Maps placeId={business.placeId} />
+      <FAQS faqs={business.faqs} />
       <WhatsApp phoneNumber={business.phone} />
       <footer>
         <Footer />
