@@ -34,18 +34,18 @@ export const business = {
   ],
   features: [
     {
-      name: '',
-      description: '',
+      name: 'dfdfdfdfdfd',
+      description: 'dfdfdfdf dfdfd dfd fdf df dfd fd df df df df df dfd ',
       icon: TrophyIcon,
     },
     {
-      name: '',
-      description: '',
+      name: 'dfdfdfdf df df df ',
+      description: ' df df df dfd df df dfdf df df df df dfdf',
       icon: TrophyIcon,
     },
     {
-      name: '',
-      description: '',
+      name: 'ewrwerwer ',
+      description: 'werewr erw er wer wer ewrwerewrwerwer ewrwer wer wer wer ewr w',
       icon: TrophyIcon,
     },
   ],
