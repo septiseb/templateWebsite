@@ -2,9 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import WhatsAppSVG from "@/utils/WhatsApp.svg";
 
-export default function WhatsApp() {
-  const phoneNumber = '1234567890'; // replace with your phone number
-  const defaultMessage = 'Hello! I\'d like to chat.'; // optional, replace with your default message
+export default function WhatsApp({phoneNumber}) {
+  const defaultMessage = 'Hola! Me gustaría saber más.'; // optional, replace with your default message
   const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   return (
