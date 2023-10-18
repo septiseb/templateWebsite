@@ -1,67 +1,117 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: '',
-  description: '',
-  keywords: '',
-  author: '',
-  email: '',
+  title: 'Holy Burger',
+  description: 'Descubre Holy Burger, el rincón donde la gastronomía y la fe se fusionan en una experiencia única. Aquí, no solo te ofrecemos una hamburguesa, sino una comunidad que se siente como familia. Nos enorgullece servir con devoción, utilizando únicamente ingredientes de la más alta calidad. Inspirados por nuestras creencias y la rica tradición mexicana, hemos reinventado la clásica hamburguesa americana con un auténtico y tropical toque mexicano. ¡Ven a Holy Burger y únete a nuestra familia, donde cada bocado es una bendición de sabor!',
+  keywords: 'Hamburguesas, Papas a la francesa, Malteadas, Hamburgesas de Queso, Hamburguesa Doble, Mejor restaurante de Hamburgesas',
+  author: 'Holy',
+  email: 'Holyburgermx@gmail.com',
   image: '',
-  url: '',
-  businessName: '',
+  url: 'holyburger.netlify.com',
+  businessName: 'Holy Burger',
   address: {
-    streetAddress: '',
-    addressLocality: '',
-    addressRegion: '',
-    postalCode: ' ',
-    addressCountry: '',
+    streetAddress: 'Guillermo Prieto 602-seccíon 2, Alameda',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38050 ',
+    addressCountry: 'Mexico',
   },
-  phone: '',
+  phone: '4613684044',
   geo: {
-    latitude: '',
-    longitude: '',
+    latitude: '20.530741795481468',
+    longitude: '-100.80634825910377',
   },
-  openingHours: '',
-  socialLinks: [],
-  testimonials: [
-    {
-      body: '',
-      rating: '',
-      author: {
-        name: '',
-      },
+  openingHours: 'Mo,Tu,We,Th,Fr,Sa 14:30-21:50',
+  socialLinks: [ 
+    'https://www.facebook.com/HolyBurgerMx',
+    'https://www.instagram.com/holy_burger_mx/',
+    ],
+  testimonials: [{
+    body: 'Las mejores de Celaya si buscas algo monchoso y hecho con amor. A mis primos que nos visitan de Texas 🇺🇸 les encantaron y las extrañan cada día 🤣 El lugar está en la mejor zona de la ciudad y me encanta la atmósfera. Holy Buger 4ever <3',
+    rating: 5,
+    author: {
+      name: 'Sebastian Ramirez'
     },
-  ],
+  },
+{
+    body: 'La comida simplemente deliciosa, precios justos por lo que pagas, la calidad de los ingredientes es muy buena, y la atención al cliente es perfecta, super amables y cordiales, recomiendo ampliamente la Holy Burger y las papas especiales. 10/10',
+    rating: 5,
+    author: {
+      name: 'Ernesto Diaz Ibarra'
+    },
+  },
+{
+    body: 'Es un increíble lugar con comida muy rica me encanta ir, las mejores hamburguesas del mundo',
+    rating: 5,
+    author: {
+      name: 'Rodolfo Chavez'
+    },
+  },
+{
+    body: 'Excelente servicio, gran sabor y buena ubicación.',
+    rating: 5,
+    author: {
+      name: 'Marco Antonio Guerrero'
+    },
+  }],
   features: [
     {
-      name: 'dfdfdfdfdfd',
-      description: 'dfdfdfdf dfdfd dfd fdf df dfd fd df df df df df dfd ',
+      name: 'Hamburguesas',
+      description: 'Llevamos la hamburguesa a un nivel divino. Saborea trozos jugosos de carne, acompañados de queso americano derretido y aderezados con nuestras salsas especiales: una envolvente Picante Cremosa y la dulce y tentadora Honey Mustard. ',
       icon: TrophyIcon,
     },
     {
-      name: 'dfdfdfdf df df df ',
-      description: ' df df df dfd df df dfdf df df df df dfdf',
+      name: 'Papas a la Francesa',
+      description: ' Nuestras papas fritas son la acompañante perfecta. Bañadas en suculento queso americano y decoradas con cebollas caramelizadas, son rematadas con nuestras famosas salsas: Picante Cremosa y Honey Mustard. Un placer divino que no podrás resistir.',
       icon: TrophyIcon,
     },
     {
-      name: 'ewrwerwer ',
-      description: 'werewr erw er wer wer ewrwerewrwerwer ewrwer wer wer wer ewr w',
+      name: 'Malteadas',
+      description: 'Eleva tus sentidos con nuestra Malteada de diferentes sabores. Un deleite celestial que combina la cremosidad del helado. Una indulgencia divina que te hará sentir en el paraíso con mucho sabor y refrescante.',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: '',
-      description: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(1).jpeg',
+      description: 'Ricas Hamburguesas',
     },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(2).jpeg',
+      description: 'Las mejores Hamburguesas de Celaya',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(3).jpeg',
+      description: 'Deliciosas Hamburguesas en Celaya',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(4).jpeg',
+      description: 'Jugosas Hamburguesas en Celaya',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM.jpeg',
+      description: 'Grandes Hamburguesas en Celaya',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.51%20PM.jpeg',
+      description: 'Hamburguesas en Celaya',
+    }
   ],
   faqs: [
     {
-      question: '',
-      answer: '',
+      question: '¿Qué hace especial a las hamburguesas de Holy Burger en comparación con otras?',
+      answer: 'Lo que nos diferencia en Holy Burger es la fusión única de la tradicional hamburguesa americana con un auténtico toque tropical mexicano, además de la alta calidad de nuestros ingredientes y el amor y devoción con que preparamos cada platillo. Cada bocado en Holy Burger es una bendición de sabor.',
     },
+    {
+      question: '¿Tienen opciones vegetarianas o veganas en el menú?',
+      answer: 'Actualmente, estamos enfocados en ofrecer hamburguesas de carne de la más alta calidad. Sin embargo, estamos constantemente innovando y buscando agregar opciones inclusivas para todos nuestros clientes en el futuro. Te recomendamos revisar nuestro menú o preguntar directamente en nuestro restaurante para las últimas adiciones.',
+    },
+    {
+      question: '¿Ofrecen algún tipo de descuento o promoción en días especiales?',
+      answer: '¡Sí! Regularmente tenemos promociones especiales y días temáticos con descuentos. Te recomendamos seguirnos en nuestras redes sociales, como Facebook e Instagram, para estar al tanto de todas nuestras ofertas y eventos especiales.',
+    }
   ],
-  placeId: '',
+  placeId: 'ChIJTYxFE0W7LIQR8JtbAcZ_lJA',
 }
 
 /*
