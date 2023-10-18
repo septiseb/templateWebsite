@@ -60,19 +60,19 @@ export const business = {
       name: 'Cosméticos',
       description:
         'Ofrecemos una grande gama de marcas de cosméticos y maquillaje como Saniye, Prossa, Bissu y entre otras marcas.',
-      icon: 'TrophyIcon',
+      icon: TrophyIcon,
     },
     {
       name: 'Bisutería',
       description:
         'Contamos con una amplia gama de aretes, collares, lentes, moños a precios muy accesibles.',
-      icon: 'TrophyIcon',
+      icon: TrophyIcon,
     },
     {
       name: 'Chapa de Oro',
       description:
         'Tenemos una variedad de aretes y anillos en chapa de oro a precios bastante económicos.',
-      icon: 'TrophyIcon',
+      icon: TrophyIcon,
     },
   ],
   images: [
