@@ -30,7 +30,7 @@ const businessSchema = `
   "owns": [${business.features?.map(feature => (`{
     "@type": "Product",
     "name": "${feature.name}",
-    "description": "${feature.description}"
+    "description": "${feature.description}",
     "offers": {
       "@type": "Offer",
       "price": "00.00",
