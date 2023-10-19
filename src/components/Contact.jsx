@@ -9,7 +9,7 @@ export default function Contact({ email, phoneNumber }) {
     e.preventDefault();
 
     const compiledMessage = `Hola, soy ${name}. ${message}`;
-    const whatsAppURL = `https://wa.me/521${phoneNumber}?text=${encodeURIComponent(compiledMessage)}`;
+    const whatsAppURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(compiledMessage)}`;
 
     window.location.href = whatsAppURL;
   };
