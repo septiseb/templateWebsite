@@ -1,7 +1,9 @@
+import { filterSocialMedia } from "@/services/helper"
+
 const navigation = [
     {
       name: 'Facebook',
-      visible:true,
+      visible:false,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -15,7 +17,7 @@ const navigation = [
     },
     {
       name: 'Instagram',
-      visible:true,
+      visible:false,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -28,8 +30,8 @@ const navigation = [
       ),
     },
     {
-      name: 'Twitter',
-      visible:true,
+      name: 'Tiktok',
+      visible:false,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -38,8 +40,8 @@ const navigation = [
       ),
     },
     {
-      name: 'GitHub',
-      visible:true,
+      name: 'Twitter',
+      visible:false,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -53,7 +55,7 @@ const navigation = [
     },
     {
       name: 'YouTube',
-      visible:true,
+      visible:false,
       href: '#',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -67,14 +69,15 @@ const navigation = [
     },
   ]
   
-export default function Footer() {
+export default function Footer({socialMedia}) {
+  const socialNavigation = filterSocialMedia(socialMedia,navigation)
     return (
       <footer className="bg-gray-50">
         <div className="mx-auto max-w-7xl px-6 py-4 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
-            {navigation.map((item) => 
+            {socialNavigation.map((item,idx) => 
               item.visible && (
-                <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+                <a key={idx} href={item.href} className="text-gray-400 hover:text-gray-500">
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
                 </a>
