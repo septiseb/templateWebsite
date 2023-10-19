@@ -5,8 +5,6 @@ import Script from 'next/script';
 const Document = (props) =>{
   let pageProps = props.__NEXT_DATA__?.props?.pageProps
 
-
-
   return (
     <Html
       className="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01']"
