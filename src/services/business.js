@@ -31,6 +31,7 @@ export const business = {
     rating: 5,
     author: {
       name: 'Sebastian Ramirez'
+
     },
   },
 {
