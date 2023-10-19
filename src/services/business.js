@@ -18,8 +18,8 @@ export const business = {
   },
   phone: '524613900651',
   geo: {
-    latitude: '',
-    longitude: '',
+    latitude: '20.53020067184738',
+    longitude: '-100.81115566212773',
   },
   openingHours: 'Tu,We,Th,Fr,Sa,Su 08:00-20:00',
   socialLinks: [ 
