@@ -1,68 +1,89 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: '',
-  description: '',
-  keywords: '',
-  author: '',
-  email: '',
-  image: '',
-  url: '',
-  businessName: '',
-  address: {
-    streetAddress: '',
-    addressLocality: '',
-    addressRegion: '',
-    postalCode: ' ',
-    addressCountry: '',
+  "title": "Pinturas Flores",
+  "description": "En Pinturas Flores, nos dedicamos a dar color y vida a cada rincón de tu hogar y negocio. Situados en Celaya, somos tu tienda de confianza para todo tipo de pinturas, desde esmaltes y acrílicos hasta complementos esenciales como impermeabilizantes y resanadores. Con una extensa variedad de colores y los mejores productos, transformamos tus ideas en realidad.",
+  "keywords": "Pinturas, Esmalte, Acrílicos, Impermeabilizantes, Resanadores, Celaya",
+  "author": "Pinturas Flores",
+  "email": "contacto@pinturasflores.mx",
+  "image": "",
+  "url": "pinturasflorescelaya.netlify.app",
+  "businessName": "Pinturas Flores",
+  "address": {
+    "streetAddress": "Av. Reforma 456, Centro",
+    "addressLocality": "Celaya",
+    "addressRegion": "Gto",
+    "postalCode": "38000",
+    "addressCountry": "Mexico"
   },
-  phone: '',
-  geo: {
-    latitude: '',
-    longitude: '',
+  "phone": "524613901234",
+  "geo": {
+    "latitude": "20.5222",
+    "longitude": "-100.8121"
   },
-  openingHours: '',
-  socialLinks: ["www.facebook.com/flux"],
-  testimonials: [
-    {
-      body: '',
-      rating: '',
-      author: {
-        name: '',
-      },
-    },
+  "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-18:00",
+  "socialLinks": [ 
+    "https://www.facebook.com/PinturasFloresCelaya",
+    "https://www.instagram.com/pinturasflores.celaya/"
   ],
-  features: [
+  "testimonials": [{
+      "body": "Excelente variedad de colores y el personal siempre está dispuesto a ayudar.",
+      "rating": 5,
+      "author": {
+        "name": "Juan Rodríguez"
+      }
+    },{
+      "body": "No solo tienen pinturas, también me ayudaron con impermeabilizante para mi terraza. Muy recomendable.",
+      "rating": 4.8,
+      "author": {
+        "name": "Laura García"
+      }
+  }],
+  "features": [
     {
-      name: 'dfdfdfdfdfd',
-      description: 'dfdfdfdf dfdfd dfd fdf df dfd fd df df df df df dfd ',
-      icon: TrophyIcon,
+      "name": "Esmaltes de Alta Calidad",
+      "description": "Ofrecemos esmaltes duraderos y brillantes perfectos para cualquier superficie.",
+      "icon": "EsmalteIcon"
     },
     {
-      name: 'dfdfdfdf df df df ',
-      description: ' df df df dfd df df dfdf df df df df dfdf',
-      icon: TrophyIcon,
+      "name": "Acrílicos Resistentes",
+      "description": "Nuestros acrílicos son ideales para interiores, proporcionando un acabado impecable.",
+      "icon": "AcrilicoIcon"
     },
     {
-      name: 'ewrwerwer ',
-      description: 'werewr erw er wer wer ewrwerewrwerwer ewrwer wer wer wer ewr w',
-      icon: TrophyIcon,
+      "name": "Impermeabilizantes",
+      "description": "Protege contra la humedad y filtraciones con nuestros impermeabilizantes de primera calidad.",
+      "icon": "WaterproofIcon"
     },
+    {
+      "name": "Resanadores",
+      "description": "Corrige y nivela superficies con nuestros resanadores de fácil aplicación.",
+      "icon": "ResanadorIcon"
+    }
   ],
-  images: [
+  "images":[
     {
-      src: '',
-      description: '',
+      "src":"https://example.com/path/to/image1.jpg",
+      "description":"Amplia gama de pinturas acrílicas en Pinturas Flores."
     },
-  ],
-  faqs: [
     {
-      question: '',
-      answer: '',
-    },
+      "src":"https://example.com/path/to/image2.jpg",
+      "description":"Estante de impermeabilizantes de alta calidad."
+    }
   ],
-  placeId: '',
+  "faqs":[
+    {
+      "question": "¿Ofrecen asesoramiento en color?",
+      "answer": "¡Sí! Contamos con expertos que te ayudarán a elegir el color y tipo de pintura ideal para tu proyecto."
+    },
+    {
+      "question": "¿Tienen entregas a domicilio?",
+      "answer": "Sí, ofrecemos servicio de entrega a domicilio en toda la ciudad de Celaya. Consulta términos y condiciones en tienda."
+    }
+  ],
+  "placeId":"ChIJm3abexamplePlaceId"
 }
+
 
 /*
 {
