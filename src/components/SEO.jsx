@@ -34,7 +34,8 @@ const businessSchema = `
     "offers": {
       "@type": "Offer",
       "price": "00.00",
-      "priceCurrency": "MX",
+      "priceCurrency": "MXN",
+      "image":"https://res.cloudinary.com/dgboapycg/image/upload/v1686270248/flux_sales_logo.jpg",
       "availability": "http://schema.org/InStock"
   }
   }`))}],
