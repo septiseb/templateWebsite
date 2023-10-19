@@ -70,32 +70,42 @@ export const business = {
   ],
   images:[{
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9823.jpeg",
-    description:""
+    description:"Rico Restaurante para Desayunar en Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9919.jpeg",
-    description:""
+    description:"Rico Restaurante para Desayunar en Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9947.jpg",
-    description:""
+    description:"Rico Restaurante para Desayunar en Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9969.jpg",
-    description:""
+    description:"Rico Restaurante para Desayunar en Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_0012.jpg",
-    description:""
+    description:"Rico Restaurante para Desayunar en Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_0047.jpg",
-    description:""
+    description:"Rico Restaurante para Desayunar en Celaya"
   }],
-  faqs:[{
-    question: '¿El ejercicio terapéutico es similar al ejercicio regular?',
-    answer: 'Mientras el ejercicio regular está enfocado en mantener o mejorar la condición física general, el ejercicio terapéutico tiene un enfoque más específico. Se dirige a mejorar áreas como la fuerza, movilidad y equilibrio, complementando otros tratamientos de fisioterapia para obtener mejores resultados.',
-  }],
+  faqs: [
+    {
+      question: '¿Tienen opciones vegetarianas o veganas para el desayuno?',
+      answer: '¡Sí! Ofrecemos una variedad de opciones vegetarianas y veganas en nuestro menú. No dude en preguntar a nuestro personal para recomendaciones.',
+    },
+    {
+      question: '¿Es necesario hacer una reserva para el brunch de fin de semana?',
+      answer: 'Recomendamos hacer una reserva para garantizar su espacio, especialmente durante los fines de semana, ya que es uno de nuestros momentos más concurridos. Sin embargo, también damos la bienvenida a los clientes sin reserva según la disponibilidad.',
+    },
+    {
+      question: '¿Ofrecen opciones de café de especialidad o bebidas sin cafeína?',
+      answer: 'Definitivamente. Además de nuestro clásico Café Americano, ofrecemos una variedad de cafés de especialidad y opciones sin cafeína. Puede consultar nuestro menú o preguntar a nuestro personal para más detalles.',
+    }
+  ],
   placeId:"ChIJXWSLgiG7LIQRiYheZrd2v6c"
 }
 
