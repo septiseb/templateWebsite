@@ -10,13 +10,13 @@ export const business = {
   "url": "pinturasflorescelaya.netlify.app",
   "businessName": "Pinturas Flores",
   "address": {
-    "streetAddress": "Av. Reforma 456, Centro",
+    "streetAddress": "Avenida Irrigación 193",
     "addressLocality": "Celaya",
     "addressRegion": "Gto",
-    "postalCode": "38000",
+    "postalCode": "38033",
     "addressCountry": "Mexico"
   },
-  "phone": "524613901234",
+  "phone": "5214612392611",
   "geo": {
     "latitude": "20.5222",
     "longitude": "-100.8121"
@@ -24,7 +24,7 @@ export const business = {
   "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-18:00",
   "socialLinks": [ 
     "https://www.facebook.com/PinturasFloresCelaya",
-    "https://www.instagram.com/pinturasflores.celaya/"
+    "https://www.youtube.com/pinturasflores.celaya/"
   ],
   "testimonials": [{
       "body": "Excelente variedad de colores y el personal siempre está dispuesto a ayudar.",
@@ -34,7 +34,7 @@ export const business = {
       }
     },{
       "body": "No solo tienen pinturas, también me ayudaron con impermeabilizante para mi terraza. Muy recomendable.",
-      "rating": 4.8,
+      "rating": 5,
       "author": {
         "name": "Laura García"
       }
@@ -43,22 +43,22 @@ export const business = {
     {
       "name": "Esmaltes de Alta Calidad",
       "description": "Ofrecemos esmaltes duraderos y brillantes perfectos para cualquier superficie.",
-      "icon": "EsmalteIcon"
+      "icon": TrophyIcon
     },
     {
       "name": "Acrílicos Resistentes",
       "description": "Nuestros acrílicos son ideales para interiores, proporcionando un acabado impecable.",
-      "icon": "AcrilicoIcon"
+      "icon": TrophyIcon
     },
     {
       "name": "Impermeabilizantes",
       "description": "Protege contra la humedad y filtraciones con nuestros impermeabilizantes de primera calidad.",
-      "icon": "WaterproofIcon"
+      "icon": TrophyIcon
     },
     {
       "name": "Resanadores",
       "description": "Corrige y nivela superficies con nuestros resanadores de fácil aplicación.",
-      "icon": "ResanadorIcon"
+      "icon": TrophyIcon
     }
   ],
   "images":[
@@ -78,10 +78,10 @@ export const business = {
     },
     {
       "question": "¿Tienen entregas a domicilio?",
-      "answer": "Sí, ofrecemos servicio de entrega a domicilio en toda la ciudad de Celaya. Consulta términos y condiciones en tienda."
+      "answer": "No ofrecemos servicio de entrega a domicilio en toda la ciudad de Celaya. Ponte en contacto con nosotros para saber más."
     }
   ],
-  "placeId":"ChIJm3abexamplePlaceId"
+  "placeId":"ChIJHdBg3Z66LIQR3zJjedjI1kA"
 }
 
 
