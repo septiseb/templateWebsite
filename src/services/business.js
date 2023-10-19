@@ -6,8 +6,8 @@ export const business = {
   keywords: 'Consulta médica , espirometría, poligrafia, broncoscopia',
   author: 'Dr. Jesús Hinojosa',
   email: 'jesushinojosabujaidar@gmail.com',
-  image: '',
-  url: '',
+  image: 'https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg',
+  url: 'neumologocelaya.netlify.com',
   businessName: 'Dr. Jesús Hinojosa | Neumólogo',
   address: {
     streetAddress: 'Los Aztecas 624, Col. Los Angeles, U.H. de Tierras Negras',
@@ -65,8 +65,35 @@ export const business = {
       description: 'Medición rápida y precisa de los niveles de oxígeno en tu sangre. Fundamental para evaluar cómo tus pulmones transfieren oxígeno a tu torrente sanguíneo',
       icon: TrophyIcon,
     },
-  ]
+  ],
+  images:[{
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    description:"Doctor Jesus Hinojosa Neumologo en Celaya"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-10-12%20at%209.47.48%20AM.jpeg",
+    description:"Doctor Jesus Hinojosa Neumologo en Celaya"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    description:"Doctor Jesus Hinojosa Neumologo en Celaya"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    description:"Doctor Jesus Hinojosa Neumologo en Celaya"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-10-12%20at%209.47.48%20AM.jpeg",
+    description:"Doctor Jesus Hinojosa Neumologo en Celaya"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    description:"Doctor Jesus Hinojosa Neumologo en Celaya"
+  }
+],
+  placeId:"ChIJMwVPDQy7LIQRN0iOiLa5pro"
 }
+
 
 /*
 {
