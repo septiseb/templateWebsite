@@ -36,7 +36,7 @@ export default function Contact({ email, phoneNumber }) {
                     className="h-6 w-6 flex-shrink-0 text-gray-400"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">+52 {phoneNumber}</span>
+                  <span className="ml-3">+52 {String(phoneNumber).slice(-10)}</span>
                 </dd>
               </div>
               <div className="mt-3">
