@@ -30,11 +30,12 @@ const businessSchema = `
   "owns": [${business.features?.map(feature => (`{
     "@type": "Product",
     "name": "${feature.name}",
-    "description": "${feature.description}"
+    "description": "${feature.description}",
+    "image":"https://res.cloudinary.com/dgboapycg/image/upload/v1686270248/flux_sales_logo.jpg",
     "offers": {
       "@type": "Offer",
       "price": "00.00",
-      "priceCurrency": "MX",
+      "priceCurrency": "MXN",
       "availability": "http://schema.org/InStock"
   }
   }`))}],
