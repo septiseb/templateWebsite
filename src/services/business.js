@@ -73,8 +73,9 @@ export const business = {
     description:""
   }],
   faqs:[{
-
-  }]
+    question: '¿El ejercicio terapéutico es similar al ejercicio regular?',
+    answer: 'Mientras el ejercicio regular está enfocado en mantener o mejorar la condición física general, el ejercicio terapéutico tiene un enfoque más específico. Se dirige a mejorar áreas como la fuerza, movilidad y equilibrio, complementando otros tratamientos de fisioterapia para obtener mejores resultados.',
+  }],
   placeId:"ChIJXWSLgiG7LIQRiYheZrd2v6c"
 }
 
