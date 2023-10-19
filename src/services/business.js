@@ -105,7 +105,7 @@ export const business = {
     },
     {
       question: '¿Tienen opciones vegetarianas o veganas en el menú?',
-      answer: 'Actualmente, estamos enfocados en ofrecer hamburguesas de carne de la más alta calidad. Sin embargo, estamos constantemente innovando y buscando agregar opciones inclusivas para todos nuestros clientes en el futuro. Te recomendamos revisar nuestro menú o preguntar directamente en nuestro restaurante para las últimas adiciones.',
+      answer: 'Si tenemos hamburgesa vegetarianas muy rica con queso.También, estamos enfocados en ofrecer hamburguesas de carne de la más alta calidad. Sin embargo, estamos constantemente innovando y buscando agregar opciones inclusivas para todos nuestros clientes en el futuro. Te recomendamos revisar nuestro menú o preguntar directamente en nuestro restaurante para las últimas adiciones.',
     },
     {
       question: '¿Ofrecen algún tipo de descuento o promoción en días especiales?',
