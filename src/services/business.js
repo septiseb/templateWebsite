@@ -1,68 +1,89 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: '',
-  description: '',
-  keywords: '',
-  author: '',
-  email: '',
-  image: '',
-  url: '',
-  businessName: '',
-  address: {
-    streetAddress: '',
-    addressLocality: '',
-    addressRegion: '',
-    postalCode: ' ',
-    addressCountry: '',
+  "title": "Cayetano Vega Bicicletas",
+  "description": "Bienvenido a Cayetano Vega Bicicletas, su tienda de confianza en el corazón de Celaya para todas sus necesidades de ciclismo. Ofrecemos una amplia gama de bicicletas, desde montaña y ruta hasta modelos urbanos, así como una variedad inigualable de accesorios y repuestos para que su bicicleta esté siempre en óptimas condiciones.",
+  "keywords": "Bicicletas, Montaña, Ruta, Urbano, Accesorios, Repuestos, Celaya",
+  "author": "Cayetano Vega Bicicletas",
+  "email": "contacto@cayetanovega.mx",
+  "image": "",
+  "url": "cayetanovegabicicletas.netlify.app",
+  "businessName": "Cayetano Vega Bicicletas",
+  "address": {
+    "streetAddress": "5 de Mayo 123, Centro",
+    "addressLocality": "Celaya",
+    "addressRegion": "Gto",
+    "postalCode": "38000",
+    "addressCountry": "Mexico"
   },
-  phone: '',
-  geo: {
-    latitude: '',
-    longitude: '',
+  "phone": "524613908765",
+  "geo": {
+    "latitude": "20.5234",
+    "longitude": "-100.8152"
   },
-  openingHours: '',
-  socialLinks: ["www.facebook.com/flux"],
-  testimonials: [
-    {
-      body: '',
-      rating: '',
-      author: {
-        name: '',
-      },
-    },
+  "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:00",
+  "socialLinks": [ 
+    "https://www.facebook.com/CayetanoVegaBicicletas",
+    "https://www.instagram.com/cayetanovega.bicicletas/"
   ],
-  features: [
+  "testimonials": [{
+      "body": "Desde que descubrí esta tienda, no voy a otro lugar. Tienen todo lo que necesito y el servicio es excepcional.",
+      "rating": 5,
+      "author": {
+        "name": "Pedro Gómez"
+      }
+    },{
+      "body": "Me encantan sus bicicletas urbanas. Calidad y buenos precios.",
+      "rating": 4.5,
+      "author": {
+        "name": "María Hernández"
+      }
+  }],
+  "features": [
     {
-      name: 'dfdfdfdfdfd',
-      description: 'dfdfdfdf dfdfd dfd fdf df dfd fd df df df df df dfd ',
-      icon: TrophyIcon,
+      "name": "Bicicletas de Montaña",
+      "description": "Conquista cualquier terreno con nuestras robustas bicicletas de montaña.",
+      "icon": "MountainIcon"
     },
     {
-      name: 'dfdfdfdf df df df ',
-      description: ' df df df dfd df df dfdf df df df df dfdf',
-      icon: TrophyIcon,
+      "name": "Bicicletas de Ruta",
+      "description": "Para los amantes de la velocidad y la distancia, nuestras bicicletas de ruta son la elección ideal.",
+      "icon": TrophyIcon
     },
     {
-      name: 'ewrwerwer ',
-      description: 'werewr erw er wer wer ewrwerewrwerwer ewrwer wer wer wer ewr w',
-      icon: TrophyIcon,
+      "name": "Bicicletas Urbanas",
+      "description": "Diseñadas para la ciudad, nuestras bicicletas urbanas combinan estilo y funcionalidad.",
+      "icon": TrophyIcon
     },
+    {
+      "name": "Accesorios y Repuestos",
+      "description": "Desde cascos hasta repuestos, tenemos todo lo que necesitas para tu bicicleta.",
+      "icon": TrophyIcon
+    }
   ],
-  images: [
+  "images":[
     {
-      src: '',
-      description: '',
+      "src":"https://example.com/path/to/image1.jpg",
+      "description":"Bicicletas de montaña de alta calidad"
     },
-  ],
-  faqs: [
     {
-      question: '',
-      answer: '',
-    },
+      "src":"https://example.com/path/to/image2.jpg",
+      "description":"Variedad de accesorios para ciclismo"
+    }
   ],
-  placeId: '',
+  "faqs":[
+    {
+      "question": "¿Ofrecen servicios de mantenimiento?",
+      "answer": "Sí, en Cayetano Vega Bicicletas ofrecemos servicios completos de mantenimiento y reparación para todas las bicicletas."
+    },
+    {
+      "question": "¿Tienen opciones de financiamiento?",
+      "answer": "Ofrecemos diversas opciones de financiamiento y pagos a plazos. Por favor, visite nuestra tienda o contáctenos para más detalles."
+    }
+  ],
+  "placeId":"ChIJk6qEexamplePlaceId"
 }
+
 
 /*
 {
