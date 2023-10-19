@@ -10,35 +10,46 @@ export const business = {
   "url": "cayetanovegabicicletas.netlify.app",
   "businessName": "Cayetano Vega Bicicletas",
   "address": {
-    "streetAddress": "5 de Mayo 123, Centro",
+    "streetAddress": "Ignacio Allende 108 Norte",
     "addressLocality": "Celaya",
     "addressRegion": "Gto",
     "postalCode": "38000",
     "addressCountry": "Mexico"
   },
-  "phone": "524613908765",
+  "phone": "5214428394750",
   "geo": {
-    "latitude": "20.5234",
-    "longitude": "-100.8152"
+    "latitude": "20.518533845369827",
+    "longitude": "-100.81035416139956"
   },
   "openingHours": "Mo,Tu,We,Th,Fr,Sa 09:00-19:00",
   "socialLinks": [ 
-    "https://www.facebook.com/CayetanoVegaBicicletas",
-    "https://www.instagram.com/cayetanovega.bicicletas/"
+   "https://www.instagram.com/cayetanovegabicicletas/"
   ],
   "testimonials": [{
-      "body": "Desde que descubrí esta tienda, no voy a otro lugar. Tienen todo lo que necesito y el servicio es excepcional.",
+      "body": "¡Mi experiencia con Cayetano Vega fue genial! Pedí algunas partes para mi bicicleta y llegaron rápido y en perfecto estado. Los precios son justos y la calidad es excelente. Definitivamente volveré a comprar aquí...",
       "rating": 5,
       "author": {
-        "name": "Pedro Gómez"
+        "name": "joserra septien"
       }
     },{
-      "body": "Me encantan sus bicicletas urbanas. Calidad y buenos precios.",
-      "rating": 4.5,
+      "body": "Exelente atención y servicio los mejores componentes dela mejor calidad un taller con técnicos sumamente preparados y capacitados...",
+      "rating": 5,
       "author": {
-        "name": "María Hernández"
+        "name": "Moises Diaz"
       }
-  }],
+  },{
+    "body": "Muy amable el joven que me orientó.",
+    "rating": 5,
+    "author": {
+      "name": "A B"
+    }
+},{
+  "body": "Muy buena atención y servicio además de mejores precios y calidad en sus productos.",
+  "rating": 5,
+  "author": {
+    "name": "Julita Oliva"
+  }
+}],
   "features": [
     {
       "name": "Bicicletas de Montaña",
@@ -63,13 +74,30 @@ export const business = {
   ],
   "images":[
     {
-      "src":"https://example.com/path/to/image1.jpg",
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/cayetanowebsite/WhatsApp%20Image%202023-10-12%20at%204.01.36%20PM.jpeg",
       "description":"Bicicletas de montaña de alta calidad"
     },
     {
-      "src":"https://example.com/path/to/image2.jpg",
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/cayetanowebsite/WhatsApp%20Image%202023-10-12%20at%204.01.37%20PM%20(1).jpeg",
       "description":"Variedad de accesorios para ciclismo"
-    }
+    },  
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/cayetanowebsite/WhatsApp%20Image%202023-10-12%20at%204.01.40%20PM.jpeg",
+      "description":"Variedad de accesorios para ciclismo"
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/cayetanowebsite/WhatsApp%20Image%202023-10-12%20at%204.01.38%20PM.jpeg",
+      "description":"Variedad de accesorios para ciclismo"
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/cayetanowebsite/WhatsApp%20Image%202023-10-12%20at%204.01.39%20PM%20(1).jpeg",
+      "description":"Variedad de accesorios para ciclismo"
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/cayetanowebsite/WhatsApp%20Image%202023-10-12%20at%204.01.39%20PM.jpeg",
+      "description":"Variedad de accesorios para ciclismo"
+    },
+  
   ],
   "faqs":[
     {
@@ -81,7 +109,7 @@ export const business = {
       "answer": "Ofrecemos diversas opciones de financiamiento y pagos a plazos. Por favor, visite nuestra tienda o contáctenos para más detalles."
     }
   ],
-  "placeId":"ChIJk6qEexamplePlaceId"
+  "placeId":"ChIJXT3EWFVtiIYRUbXnOXXpIvE"
 }
 
 
