@@ -11,7 +11,7 @@ export default function ReviewCard({ testimonial }) {
       >
         <div className='flex items-center justify-between'>
         <div className="flex gap-x-1 text-amber-400">
-          {Array.from({ length: testimonial.rating }).map((_, index) => (
+          {Array.from({ length: testimonial.rating })?.map((_, index) => (
             <StarIcon key={index} className="h-5 w-5 flex-none" aria-hidden="true" />
           ))}
         </div>
