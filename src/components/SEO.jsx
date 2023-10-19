@@ -31,11 +31,11 @@ const businessSchema = `
     "@type": "Product",
     "name": "${feature.name}",
     "description": "${feature.description}",
+    "image":"https://res.cloudinary.com/dgboapycg/image/upload/v1686270248/flux_sales_logo.jpg",
     "offers": {
       "@type": "Offer",
       "price": "00.00",
       "priceCurrency": "MXN",
-      "image":"https://res.cloudinary.com/dgboapycg/image/upload/v1686270248/flux_sales_logo.jpg",
       "availability": "http://schema.org/InStock"
   }
   }`))}],
