@@ -1,68 +1,83 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: '',
-  description: '',
-  keywords: '',
-  author: '',
-  email: '',
+  title: 'La Paris Bistro',
+  description: 'Ubicados en la emblemática Alameda, les damos la bienvenida a la Paris Bistro, su destino ideal para comenzar el día con energía y sabor. Brindamos un espacio encantador y acogedor, perfecto para disfrutar de exquisitos desayunos, indulgentes brunches y una selecta variedad de opciones en nuestra cafetería. Pero eso no es todo, nuestro ambiente también se presta como el entorno perfecto para trabajar o para disfrutar de amenas charlas entre amigos. Nos enorgullece presentar nuestras especialidades: los suculentos Chilaquiles Verdes y el clásico Café Americano, cada uno preparado con el amor y la dedicación que caracteriza nuestra cocina. Nos esforzamos por ofrecer experiencias culinarias inolvidables',
+  keywords: 'Café, Desayuno, Trabajo, Chilaquiles',
+  author: 'La Paris Bistro',
+  email: 'Mx.laparis@gmail.com',
   image: '',
-  url: '',
-  businessName: '',
+  url: 'laparis.netlify.app',
+  businessName: 'La Paris Bistro',
   address: {
-    streetAddress: '',
-    addressLocality: '',
-    addressRegion: '',
-    postalCode: ' ',
-    addressCountry: '',
+    streetAddress: 'Cristóbal Colón 203, Alameda',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38050 ',
+    addressCountry: 'Mexico',
   },
-  phone: '',
+  phone: '524613900651',
   geo: {
     latitude: '',
     longitude: '',
   },
-  openingHours: '',
-  socialLinks: ["www.facebook.com/flux"],
-  testimonials: [
-    {
-      body: '',
-      rating: '',
-      author: {
-        name: '',
-      },
+  openingHours: 'Tu,We,Th,Fr,Sa,Su 08:00-20:00',
+  socialLinks: [ 
+    'https://www.facebook.com/profile.php?id=100083220247766&mibextid=LQQJ4d',
+    'https://instagram.com/laparis.mx',
+    ],
+ testimonials: [{
+    body: 'El lugar es muy bonito y la comida muy buena. Excelente lugar para pasar la tarde',
+    rating: 5,
+    author: {
+      name: 'Fernando Diez',
     },
-  ],
+     },{
+    body: 'Exelente comida, servicio y lugar. Felicidades',
+    rating: 5,
+    author: {
+      name: 'Debora Cabrera',
+    },
+  },{
+    body: 'Un lugar muy tranquilo, excelente para desayunar y arrancar el día 👌🏻',
+    rating: 5,
+    author: {
+      name: 'Luis Vancini',
+    },
+  },{
+    body: 'Amo este restaurante. Pasamos a desayunar. El dueño se acercó a nuestra mesa y los meseros fueron amables y rápidos para tomar nuestros pedidos...',
+    rating: 5,
+    author: {
+      name: 'Kelly L',
+    },
+  }],
   features: [
     {
-      name: 'dfdfdfdfdfd',
-      description: 'dfdfdfdf dfdfd dfd fdf df dfd fd df df df df df dfd ',
+      name: 'Chilaquiles Sofisticados',
+      description: 'Delicadas tiras de tortilla doradas a la perfección, bañadas en una auténtica salsa verde. Acompañadas de frijoles tiernos, una pincelada de crema fresca y espolvoreadas con queso que se funde en la boca',
       icon: TrophyIcon,
     },
     {
-      name: 'dfdfdfdf df df df ',
-      description: ' df df df dfd df df dfdf df df df df dfdf',
+      name: 'Enchiladas Gourmet',
+      description: 'Suaves tortillas de maíz rellenas de jugoso pollo deshebrado, cubiertas con nuestra exquisita salsa verde casera. Coronadas con queso gratinado al horno y un toque de crema que realza todos los sabores',
       icon: TrophyIcon,
     },
     {
-      name: 'ewrwerwer ',
-      description: 'werewr erw er wer wer ewrwerewrwerwer ewrwer wer wer wer ewr w',
+      name: 'Toast de Jamón al Estilo Rústico',
+      description: 'Rebanadas de pan rústico, crujiente por fuera y esponjoso por dentro, untadas con un cremoso queso y acompañadas de champiñones salteados al aroma de hierbas frescas',
       icon: TrophyIcon,
     },
   ],
-  images: [
-    {
-      src: '',
-      description: '',
-    },
-  ],
-  faqs: [
-    {
-      question: '',
-      answer: '',
-    },
-  ],
-  placeId: '',
+  images:[{
+    src:"",
+    description:""
+  }],
+  faqs:[{
+
+  }]
+  placeId:"ChIJXWSLgiG7LIQRiYheZrd2v6c"
 }
+
 
 /*
 {
