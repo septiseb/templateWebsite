@@ -31,19 +31,32 @@ const businessSchema = `
     "@type": "Product",
     "name": "${feature.name}",
     "description": "${feature.description}"
+    "offers": {
+      "@type": "Offer",
+      "price": "00.00",
+      "priceCurrency": "MX",
+      "availability": "http://schema.org/InStock"
+  }
   }`))}],
   "review": [${business.testimonials?.map(testimonial => (`{
     "@type": "Review",
-    "author": "${testimonial.author}",
+    "author": "${testimonial.author.name}",
     "datePublished": "${testimonial.date}",
-    "description": "${testimonial.feedback}",
+    "description": "${testimonial.description}",
     "rating": {
       "@type": "Rating",
       "bestRating": "5",
       "worstRating": "1",
       "ratingValue": "${testimonial.rating}"
     }
-  }`))}]
+  }`))}],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "4",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
 }`;
 
 // Then you can use businessSchema in your component as needed.
