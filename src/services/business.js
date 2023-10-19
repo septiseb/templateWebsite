@@ -91,6 +91,12 @@ export const business = {
     description:"Doctor Jesus Hinojosa Neumologo en Celaya"
   }
 ],
+faqs: [
+    {
+      question: '',
+      answer: '',
+    }
+  ],
   placeId:"ChIJMwVPDQy7LIQRN0iOiLa5pro"
 }
 
