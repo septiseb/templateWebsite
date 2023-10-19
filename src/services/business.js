@@ -16,7 +16,7 @@ export const business = {
     postalCode: '38050 ',
     addressCountry: 'Mexico',
   },
-  phone: '4613684044',
+  phone: '5214613684044',
   geo: {
     latitude: '20.530741795481468',
     longitude: '-100.80634825910377',
