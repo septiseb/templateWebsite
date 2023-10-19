@@ -9,7 +9,7 @@ export default function Galery({ images }) {
         </h2>
       </div>
       <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
-        {images.map((img) => (
+        {images?.map((img) => (
           <div>
             <img
               class="h-auto max-w-full rounded-lg"

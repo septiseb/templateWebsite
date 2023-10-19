@@ -20,7 +20,7 @@ export default function Login() {
       <SEO business={business} />
       <NavBar placeId={business.placeId} phoneNumber={business.phone} />
       <Hero business={business}>
-        {business.testimonials.map((testimonial) => (
+        {business.testimonials?.map((testimonial) => (
           <ReviewCard testimonial={testimonial} />
         ))}
       </Hero>
