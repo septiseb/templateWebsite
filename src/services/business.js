@@ -34,7 +34,7 @@ export const business = {
       },
     },
     {
-      body: '',
+      body: 'Variedad de cosméticos, me encanta la variedad que hay en los accesorios de mujer',
       rating: 5,
       author: {
         name: 'Alejandra Ruiz',
@@ -77,9 +77,29 @@ export const business = {
   ],
   images: [
     {
-      src: '',
-      description: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.03%20PM.jpeg',
+      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
     },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.05%20PM%20(1).jpeg',
+      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.05%20PM%20(2).jpeg',
+      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.05%20PM.jpeg',
+      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.06%20PM%20(1).jpeg',
+      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
+    },
+    {
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.06%20PM.jpeg',
+      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
+    }
   ],
   faqs: [
     {
