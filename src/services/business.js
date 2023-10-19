@@ -24,7 +24,7 @@ export const business = {
     longitude: '-100.412060',
   },
   openingHours: "",
-  socialLinks: [],
+  socialLinks: ["https://www.instagram.com/latidomexico/",""],
   testimonials: [
     {
       body: 'Excelente atención',
