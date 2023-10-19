@@ -1,67 +1,71 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: '',
-  description: '',
-  keywords: '',
-  author: '',
-  email: '',
+  title: 'Dr. Jesús Hinojosa | Neumólogo',
+  description: 'Hola, soy el Dr. Jesús Hinojosa Bujaidar, tu Neumólogo en Celaya, Guanajuato. Experto en diagnóstico y tratamiento de enfermedades respiratorias, especializado en broncoscopia y trastornos del sueño como la apnea. Mi compromiso es brindarte una atención personalizada y de calidad para tu salud pulmonar. Tu bienestar es mi prioridad',
+  keywords: 'Consulta médica , espirometría, poligrafia, broncoscopia',
+  author: 'Dr. Jesús Hinojosa',
+  email: 'jesushinojosabujaidar@gmail.com',
   image: '',
   url: '',
-  businessName: '',
+  businessName: 'Dr. Jesús Hinojosa | Neumólogo',
   address: {
-    streetAddress: '',
-    addressLocality: '',
-    addressRegion: '',
-    postalCode: ' ',
-    addressCountry: '',
+    streetAddress: 'Los Aztecas 624, Col. Los Angeles, U.H. de Tierras Negras',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38040',
+    addressCountry: 'Mexico',
   },
-  phone: '',
+  phone: '4616093374',
   geo: {
-    latitude: '',
-    longitude: '',
+    latitude: '20.528183794372868',
+    longitude: '-100.82514147561821',
   },
-  openingHours: '',
-  socialLinks: ["www.facebook.com/flux"],
-  testimonials: [
-    {
-      body: '',
-      rating: '',
-      author: {
-        name: '',
-      },
+  openingHours: 'Mo,Tu,We,Th,Fr,Sa,Su 00:00-24:00',
+  socialLinks: [ 
+    'https://www.facebook.com/profile.php?id=100091812816751',
+    ],
+  testimonials: [{
+    body: 'Excelente atención, diagnóstico acertado mediante análisis correspondientes,recomendado 100%',
+    rating: 5,
+    author: {
+      name: 'Luis Angel Martínez Benítez',
     },
-  ],
+     },{
+    body: 'Lo mejor que he visitado',
+    rating: 5,
+    author: {
+      name: 'Donaciano Alanis'},
+  },{
+    body: 'Su trato es amable, es empático ante la situación. Explica ampliamente la condición de la paciente.',
+    rating: 5,
+    author: {
+      name: 'Cuasita Rojas',
+    },
+  },{
+    body: 'Excelente la atención del Dr. Hinojosa, muy amable y nos explicó de manera detallada y muy clara. Lo recomiendo ampliamente',
+    rating: 5,
+    author: {
+      name: 'Ramon Avilez', 
+    },
+  }],
   features: [
     {
-      name: 'dfdfdfdfdfd',
-      description: 'dfdfdfdf dfdfd dfd fdf df dfd fd df df df df df dfd ',
+      name: 'Broncoscopia Diagnóstica',
+      description: 'Un procedimiento minucioso que permite visualizar directamente las vías respiratorias, esencial para detectar anomalías y enfermedades pulmonares.',
       icon: TrophyIcon,
     },
     {
-      name: 'dfdfdfdf df df df ',
-      description: ' df df df dfd df df dfdf df df df df dfdf',
+      name: 'Pruebas de Función Pulmonar',
+      description: 'Análisis detallado de tu capacidad respiratoria, ayudando a determinar la salud de tus pulmones y a diagnosticar condiciones específicas',
       icon: TrophyIcon,
     },
     {
-      name: 'ewrwerwer ',
-      description: 'werewr erw er wer wer ewrwerewrwerwer ewrwer wer wer wer ewr w',
+      name: 'Oximetría de Pulso',
+      description: 'Medición rápida y precisa de los niveles de oxígeno en tu sangre. Fundamental para evaluar cómo tus pulmones transfieren oxígeno a tu torrente sanguíneo',
       icon: TrophyIcon,
     },
-  ],
-  images: [
-    {
-      src: '',
-      description: '',
-    },
-  ],
-  faqs: [
-    {
-      question: '',
-      answer: '',
-    },
-  ],
-  placeId: '',
+  ]
 }
 
 /*
