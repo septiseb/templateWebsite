@@ -22,7 +22,7 @@ export const business = {
     longitude: '',
   },
   openingHours: '',
-  socialLinks: [],
+  socialLinks: ["www.facebook.com/flux"],
   testimonials: [
     {
       body: '',

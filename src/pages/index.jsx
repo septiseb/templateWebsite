@@ -31,7 +31,7 @@ export default function Login() {
       <FAQS faqs={business.faqs} />
       <WhatsApp phoneNumber={business.phone} />
       <footer>
-        <Footer />
+        <Footer socialMedia={business.socialLinks} />
       </footer>
     </>
   )
