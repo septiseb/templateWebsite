@@ -27,12 +27,12 @@ const businessSchema = `
   },
   "openingHours": "${business.openingHours}",
   "sameAs": ${JSON.stringify(business.socialLinks)},
-  "owns": [${business.features.map(feature => (`{
+  "owns": [${business.features?.map(feature => (`{
     "@type": "Product",
     "name": "${feature.name}",
     "description": "${feature.description}"
   }`))}],
-  "review": [${business.testimonials.map(testimonial => (`{
+  "review": [${business.testimonials?.map(testimonial => (`{
     "@type": "Review",
     "author": "${testimonial.author}",
     "datePublished": "${testimonial.date}",

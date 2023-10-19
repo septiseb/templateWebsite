@@ -75,7 +75,7 @@ export default function Footer({socialMedia}) {
       <footer className="bg-gray-50">
         <div className="mx-auto max-w-7xl px-6 py-4 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
-            {socialNavigation.map((item,idx) => 
+            {socialNavigation?.map((item,idx) => 
               item.visible && (
                 <a key={idx} href={item.href} className="text-gray-400 hover:text-gray-500">
                   <span className="sr-only">{item.name}</span>
