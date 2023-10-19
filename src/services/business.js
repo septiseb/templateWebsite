@@ -69,7 +69,27 @@ export const business = {
     },
   ],
   images:[{
-    src:"",
+    src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9823.jpeg",
+    description:""
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9919.jpeg",
+    description:""
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9947.jpg",
+    description:""
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9969.jpg",
+    description:""
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_0012.jpg",
+    description:""
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_0047.jpg",
     description:""
   }],
   faqs:[{
