@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 const Document = (props) => {
   let pageProps = props.__NEXT_DATA__?.props?.pageProps
