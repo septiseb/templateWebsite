@@ -10,7 +10,8 @@ const Document = (props) =>{
       className="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01']"
     >
       <Head>
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=GTM-TMRXP6MB" />
+      <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
