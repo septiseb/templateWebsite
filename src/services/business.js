@@ -25,6 +25,7 @@ export const business = {
   socialLinks: [ 
     'https://www.facebook.com/HolyBurgerMx',
     'https://www.instagram.com/holy_burger_mx/',
+    'https://www.tiktok.com/@holyburgermx'
     ],
   testimonials: [{
     body: 'Las mejores de Celaya si buscas algo monchoso y hecho con amor. A mis primos que nos visitan de Texas 🇺🇸 les encantaron y las extrañan cada día 🤣 El lugar está en la mejor zona de la ciudad y me encanta la atmósfera. Holy Buger 4ever <3',
