@@ -10,15 +10,16 @@ export default function WhatsApp({ phoneNumber }) {
 
   return (
     <div className="fixed bottom-5 right-5 z-50">
-      <a href={waLink} target="_blank" rel="noopener noreferrer">
-        <button id="cta_whatsapp">
+    <button
+          id="cta_whatsapp" >
+      <a href={waLink} target="_blank">
           <Image
             className="w-16 lg:w-20"
             src={WhatsAppSVG}
             alt="WhatsApp Chat Button"
           />
-        </button>
       </a>
+      </button>
     </div>
   )
 }
