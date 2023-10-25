@@ -38,7 +38,19 @@ export const business = {
       "author": {
         "name": "Laura García"
       }
-  }],
+  },{
+    "body": "Excelente servicio atención a clientes, cuentan con una amplia gana de productos a un precio muy barato.",
+    "rating": 5,
+    "author": {
+      "name": "al flor"
+    }
+},{
+  "body": "Excelente servicio al cliente y tienen mucha variedad de productos 👌",
+  "rating": 5,
+  "author": {
+    "name": "Reyes Bermudez"
+  }
+}],
   "features": [
     {
       "name": "Esmaltes de Alta Calidad",
