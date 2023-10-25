@@ -9,7 +9,7 @@ export default function WhatsApp({ phoneNumber }) {
   )}`
 
   return (
-    <div className="fixed bottom-5 right-5 z-50">
+    <div id="cta_whatsapp" className="fixed bottom-5 right-5 z-50">
       <button id="cta_whatsapp">
         <a id="cta_whatsapp" href={waLink} target="_blank">
           <Image
