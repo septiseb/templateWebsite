@@ -13,6 +13,7 @@ export default function WhatsApp({ phoneNumber }) {
       <button id="cta_whatsapp">
         <a id="cta_whatsapp" href={waLink} target="_blank">
           <Image
+            id="cta_whatsapp"
             className="w-16 lg:w-20"
             src={WhatsAppSVG}
             alt="WhatsApp Chat Button"
