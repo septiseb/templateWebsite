@@ -15,7 +15,7 @@ for branch in $branches; do
     git checkout $branch
     #git pull origin $branch
     git merge main --no-edit
-    changugit push origin $branch
+    git push origin $branch
 done
 
 # Go back to the main branch when done
