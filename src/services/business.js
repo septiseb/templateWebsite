@@ -63,11 +63,27 @@ export const business = {
   ],
   "images":[
     {
-      "src":"https://example.com/path/to/image1.jpg",
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/floreswebsite/WhatsApp%20Image%202023-10-20%20at%209.36.47%20AM%20(1).jpeg",
       "description":"Amplia gama de pinturas acrílicas en Pinturas Flores."
     },
     {
-      "src":"https://example.com/path/to/image2.jpg",
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/floreswebsite/WhatsApp%20Image%202023-10-20%20at%209.36.47%20AM.jpeg",
+      "description":"Estante de impermeabilizantes de alta calidad."
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/floreswebsite/WhatsApp%20Image%202023-10-20%20at%209.36.48%20AM.jpeg",
+      "description":"Estante de impermeabilizantes de alta calidad."
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/floreswebsite/WhatsApp%20Image%202023-10-20%20at%209.55.09%20AM.jpeg",
+      "description":"Estante de impermeabilizantes de alta calidad."
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/floreswebsite/WhatsApp%20Image%202023-10-20%20at%209.55.11%20AM%20(1).jpeg",
+      "description":"Estante de impermeabilizantes de alta calidad."
+    },
+    {
+      "src":"https://storage.googleapis.com/web-assets-fluxsales/floreswebsite/WhatsApp%20Image%202023-10-20%20at%209.55.11%20AM.jpeg",
       "description":"Estante de impermeabilizantes de alta calidad."
     }
   ],
