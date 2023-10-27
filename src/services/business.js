@@ -128,7 +128,7 @@ export const business = {
         'Nuestro horario de atención es todos los días de 10:00 am a 8:30 pm. Siempre estamos encantados de atenderte y ayudarte a encontrar el producto perfecto.',
     },
   ],
-  placeId: '',
+  placeId: 'ChIJzdTjdDBb04UR7bW3Em5cVcc',
 }
 
 /*
