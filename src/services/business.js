@@ -24,6 +24,7 @@ geo: {
 openingHours: 'Mo,Tu,We,Th,Fr 09:00-14:00, 16:00-21:00; Sa 09:00-14:00; Su Closed',
 socialLinks: [ 
   'https://www.instagram.com/mobility.master/',
+  'https://www.facebook.com/p/Mobility-Master-Fisioterapia-100072162412702'
   ],
 testimonials: [{
   body: 'Los masajes de Mobility Master son la solución perfecta para quitar el estrés. Después de una sesión, te sientes realmente renovado. ¡Totalmente recomendado!',
@@ -37,16 +38,16 @@ testimonials: [{
   author: {
     name: 'Sebastian Septien'},
 },{
-  body: '',
+  body: 'En Mobility Master he encontrado el trato más profesional, humano y amable. He tenido crisis de dolor con las que terminan al instante y estuvieron  tratando un padecimiento  de ciática que tuve por años, los únicos que me lo quitaron...',
   rating: 5,
   author: {
-    name: '',
+    name: 'Maggie Ibarra',
   },
 },{
-  body: '',
+  body: 'Me ha servido bastante para mi rehabilitación después de cirugía de rodilla, me atienden muy bien y dan buen seguimiento',
   rating: 5,
   author: {
-    name: '', 
+    name: 'Paulina Santillán', 
   },
 }],
 features: [
@@ -105,7 +106,7 @@ faqs: [
     answer: 'Porque estamos comprometidos con la salud y bienestar de nuestros pacientes. Nuestro equipo de profesionales utiliza técnicas avanzadas y un enfoque personalizado para ofrecer resultados efectivos y duraderos. ¡Tu movilidad y comodidad son nuestra prioridad!',
   }
 ],
-placeId:"ChIJ3WluE4K6LIQRR6bIbfAFrPE"
+placeId:"ChIJ0ew9GPK7LIQRTXX2xqHaFEI"
 }
 
 /*
