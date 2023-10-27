@@ -19,9 +19,9 @@ export default function ReviewCard({ testimonial }) {
         <Image className="w-20"src={GoogleLogo} />
         </div>
         </div>
-        <div className="font-semibold mb-4">{testimonial.author.name}
+        <div className="font-semibold mb-4 text-lg">{testimonial.author.name}
         </div>
-        <blockquote className="text-gray-900">
+        <blockquote className="text-gray-900 text-lg lg:text-md line-clamp-4">
           <p>{`“${testimonial.body}”`}</p>
         </blockquote>
       </figure>
