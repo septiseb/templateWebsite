@@ -1,11 +1,11 @@
 import { PlusIcon } from '@heroicons/react/20/solid'
 
 export default function GetDirections({placeId }) {
-    const baseURL = "https://www.google.com/maps/place/";
+    const baseURL = "https://www.google.com/maps/search/";
 
   return (
     <div className="flex-shrink-0">
-      <a href={`${baseURL}?q=place_id:${placeId}`} target="_blank" rel="noopener noreferrer">
+      <a href={`${baseURL}?api=1&query=Google&query_place_id=${placeId}`} target="_blank" rel="noopener noreferrer">
         <button
           id="cta_directions"
           type="button"
