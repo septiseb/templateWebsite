@@ -2,8 +2,8 @@ import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
   title: 'Mobility Master Fisioterapia',
-description: 'En Mobility Master, no solo tratamos dolencias, transformamos vidas. Con atención personalizada y pasión en cada sesión, te ayudamos a recuperar tu movilidad y a liberarte del dolor. Porque mereces una vida plena y sin limitaciones. ¡Recupera el control y vive al máximo con nosotros!',
-keywords: 'Fisioterapia Deportiva, Fisioterapia Traumatológica, Fisioterapia Neurológica, Fisioterapia Geriátrica',
+description: 'En Mobility Master, somos más que una simple clínica de fisioterapia; somos un centro de transformación integral para aquellos que buscan una vida sin dolor y limitaciones. Entendemos que cada individuo es único, y es por eso que ofrecemos atención personalizada, asegurándonos de entender a fondo tus necesidades y objetivos.No solo nos enfocamos en tratar dolencias específicas; nos dedicamos a rejuvenecer todo tu ser. Con técnicas avanzadas y un equipo altamente capacitado, recuperarás tu movilidad y redescubrirás la libertad de moverte sin restricciones. Pero más allá de la técnica, lo que realmente nos diferencia es nuestra pasión. Cada sesión es un compromiso genuino con tu bienestar, y trabajamos incansablemente para que sientas alivio y progreses constantemente.',
+keywords: 'Fisioterapia Deportiva, Fisioterapia Traumatológica, Fisioterapia Neurológica, Fisioterapia Geriátrica, Descarga Muscular',
 author: 'Mobility Master',
 email: 'andrea_gi25@hotmail.com',
 image: '',
