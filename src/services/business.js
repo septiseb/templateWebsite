@@ -1,134 +1,111 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Latido',
-  description:
-    '¡Bienvenido a Latido! Somos tu tienda de accesorios para mujer con precios competitivos. Explora nuestra amplia gama de bisutería y maquillaje, incluyendo esmaltes, aretes, collares y chapa de oro. Trabajamos con marcas reconocidas como Prosa, Bissu y Saniye, garantizando calidad y estilo en cada pieza. Ya sea para tu look diario o una ocasión especial, encuentra el complemento perfecto en Latido y realza tu estilo con nuestras opciones irresistibles. Latido te ofrece la combinación perfecta de moda y asequibilidad. Nuestra colección está cuidadosamente seleccionada para brindarte variedad y calidad en cada elección. Desde esmaltes vibrantes hasta maquillaje de tendencia, nuestros productos resaltarán tu belleza única',
-  keywords:
-    'accesorios, mujer, bisutería, maquillaje, esmaltes, aretes, collares, chapa de oro, Saniye, Prosa, Bissu',
-  author: 'Latido - Accesorios para Mujer',
-  email: 'arum_15@gmail.com',
-  image: '',
-  url: '',
-  businessName: 'Latido',
-  address: {
-    streetAddress: 'Av Cerro Sombrerete 1199',
-    addressLocality: 'Misión Bucareli Sur',
-    addressRegion: 'Santiago de Querétaro',
-    postalCode: '76168',
-    addressCountry: 'México',
+  title: 'Mobility Master Fisioterapia',
+description: 'En Mobility Master, no solo tratamos dolencias, transformamos vidas. Con atención personalizada y pasión en cada sesión, te ayudamos a recuperar tu movilidad y a liberarte del dolor. Porque mereces una vida plena y sin limitaciones. ¡Recupera el control y vive al máximo con nosotros!',
+keywords: 'Fisioterapia Deportiva, Fisioterapia Traumatológica, Fisioterapia Neurológica, Fisioterapia Geriátrica',
+author: 'Mobility Master',
+email: 'andrea_gi25@hotmail.com',
+image: '',
+url: '',
+businessName: 'Mobility Master Fisioterapia',
+address: {
+  streetAddress: 'Prolongación Palmas #509, Villa de los Reyes',
+  addressLocality: 'Celaya',
+  addressRegion: 'Gto',
+  postalCode: '38057',
+  addressCountry: 'Mexico',
+},
+phone: '4611836785',
+geo: {
+  latitude: '20.524219117269748',
+  longitude: '-100.80100243558205',
+},
+openingHours: 'Mo,Tu,We,Th,Fr 09:00-14:00, 16:00-21:00; Sa 09:00-14:00; Su Closed',
+socialLinks: [ 
+  'https://www.instagram.com/mobility.master/',
+  ],
+testimonials: [{
+  body: 'Los masajes de Mobility Master son la solución perfecta para quitar el estrés. Después de una sesión, te sientes realmente renovado. ¡Totalmente recomendado!',
+  rating: 5,
+  author: {
+    name: 'Jorge Asdrubal',
   },
-  phone: '5214626059572',
-  geo: {
-    latitude: '20.623990',
-    longitude: '-100.412060',
+   },{
+  body: 'Probé la punción en Mobility Master y los resultados han sido impresionantes. Una técnica efectiva que alivia tensiones profundas. Si nunca lo has intentado, te lo recomiendo. ¡Un alivio inmediato!',
+  rating: 5,
+  author: {
+    name: 'Sebastian Septien'},
+},{
+  body: '',
+  rating: 5,
+  author: {
+    name: '',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/latidomexico/",""],
-  testimonials: [
-    {
-      body: 'Excelente atención',
-      rating: 5,
-      author: {
-        name: 'Carmen Cruz Servin',
-      },
-    },
-    {
-      body: 'Variedad de cosméticos, me encanta la variedad que hay en los accesorios de mujer',
-      rating: 5,
-      author: {
-        name: 'Alejandra Ruiz',
-      },
-    },
-    {
-      body: 'Buenos precios y buenos accesorios para el regalo de mi esposa!',
-      rating: 5,
-      author: {
-        name: 'Jorge Asdrubal',
-      },
-    },
-    {
-      body: 'Excelentes productos, me encanta todo',
-      rating: 5,
-      author: {
-        name: 'Alexa Guerrero',
-      },
-    },
-  ],
-  features: [
-    {
-      name: 'Cosméticos',
-      description:
-        'Ofrecemos una grande gama de marcas de cosméticos y maquillaje como Saniye, Prossa, Bissu y entre otras marcas.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Bisutería',
-      description:
-        'Contamos con una amplia gama de aretes, collares, lentes, moños a precios muy accesibles.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Chapa de Oro',
-      description:
-        'Tenemos una variedad de aretes y anillos en chapa de oro a precios bastante económicos.',
-      icon: TrophyIcon,
-    },
-  ],
-  images: [
-    {
-      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.03%20PM.jpeg',
-      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
-    },
-    {
-      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.05%20PM%20(1).jpeg',
-      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
-    },
-    {
-      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.05%20PM%20(2).jpeg',
-      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
-    },
-    {
-      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.05%20PM.jpeg',
-      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
-    },
-    {
-      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.06%20PM%20(1).jpeg',
-      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
-    },
-    {
-      src: 'https://storage.googleapis.com/web-assets-fluxsales/latidowebsite/WhatsApp%20Image%202023-08-17%20at%2012.00.06%20PM.jpeg',
-      description: 'Latido empresa de ventas de cósmeticos, maquillaje, aretes y muchos accesorios de mujer',
-    }
-  ],
-  faqs: [
-    {
-      question: '¿Manejan marcas originales?',
-      answer:
-        'Sí, en Latido manejamos marcas reconocidas y originales como Saniye, Prossa, Bissu, entre otras. Garantizamos calidad y autenticidad en cada producto.',
-    },
-    {
-      question: '¿Realizan envíos a domicilio?',
-      answer:
-        'Actualmente, ofrecemos un servicio de compra en tienda. Sin embargo, estamos trabajando para implementar envíos a domicilio en el futuro cercano.',
-    },
-    {
-      question: '¿Ofrecen descuentos o promociones?',
-      answer:
-        '¡Sí! Con regularidad tenemos promociones y descuentos especiales. Te recomendamos seguirnos en nuestras redes sociales o suscribirte a nuestro boletín para estar al tanto de todas nuestras ofertas.',
-    },
-    {
-      question: '¿Tienen opciones de maquillaje hipoalergénico?',
-      answer:
-        'Sí, contamos con una gama de productos hipoalergénicos pensados para pieles sensibles. Puedes preguntar en tienda para que nuestros asesores te guíen hacia las mejores opciones según tus necesidades.',
-    },
-    {
-      question: '¿Cuál es el horario de atención de la tienda?',
-      answer:
-        'Nuestro horario de atención es todos los días de 10:00 am a 8:30 pm. Siempre estamos encantados de atenderte y ayudarte a encontrar el producto perfecto.',
-    },
-  ],
-  placeId: 'ChIJzdTjdDBb04UR7bW3Em5cVcc',
+},{
+  body: '',
+  rating: 5,
+  author: {
+    name: '', 
+  },
+}],
+features: [
+  {
+    name: '💆‍♂️ Punción Seca',
+    description: 'Dile adiós al dolor muscular. Con nuestra técnica, sentirás alivio desde la primera sesión. ¡No esperes más para moverte libremente!',
+    icon: TrophyIcon,
+  },
+  {
+    name: '🔋 Descargas Musculares',
+    description: 'Libera la tensión y recupera tu energía. Nuestra técnica te brinda un alivio inmediato, permitiéndote sentirte renovado y listo para cualquier desafío.',
+    icon: TrophyIcon,
+  },
+  {
+    name: '🚑 Tratamiento de Lesiones',
+    description: '¿Lumbago? Recupérate con nosotros. Alivio eficaz y atención especializada. ¡Vuelve a moverte sin dolor!',
+    icon: TrophyIcon,
+  },
+],
+images:[{
+  src:"https://storage.googleapis.com/web-assets-fluxsales/mobilitywebsite/WhatsApp%20Image%202023-10-25%20at%2010.14.54%20AM%20(1).jpeg",
+  description:"Mobility Master Fisioterapia en Celaya"
+},
+{
+  src:"https://storage.googleapis.com/web-assets-fluxsales/mobilitywebsite/WhatsApp%20Image%202023-10-25%20at%2010.14.54%20AM.jpeg",
+  description:"Mobility Master Fisioterapia en Celaya"
+},
+{
+  src:"https://storage.googleapis.com/web-assets-fluxsales/mobilitywebsite/WhatsApp%20Image%202023-10-25%20at%2010.14.55%20AM%20(1).jpeg",
+  description:"Mobility Master Fisioterapia en Celaya"
+},
+{
+  src:"https://storage.googleapis.com/web-assets-fluxsales/mobilitywebsite/WhatsApp%20Image%202023-10-25%20at%2010.14.55%20AM.jpeg",
+  description:"Mobility Master Fisioterapia en Celaya"
+},
+{
+  src:"https://storage.googleapis.com/web-assets-fluxsales/mobilitywebsite/WhatsApp%20Image%202023-10-25%20at%2010.28.19%20AM.jpeg",
+  description:"Mobility Master Fisioterapia en Celaya"
+},
+{
+  src:"https://storage.googleapis.com/web-assets-fluxsales/mobilitywebsite/WhatsApp%20Image%202023-10-25%20at%2010.24.47%20AM.jpeg",
+  description:"Mobility Master Fisioterapia en Celaya"
+}
+],
+faqs: [
+  {
+    question: '¿Qué tratamientos ofrecen en Mobility Master para el dolor muscular?',
+    answer: 'Ofrecemos una variedad de tratamientos, incluidos la punción seca, descargas musculares y tratamientos especializados para lesiones como el lumbago. Nuestra misión es aliviar eficazmente el dolor y mejorar la movilidad.',
+  },
+  {
+    question: 'He oído hablar de la punción seca. ¿En qué consiste?',
+    answer: 'La punción seca es una técnica que utiliza agujas finas para tratar áreas musculares problemáticas, especialmente puntos gatillo. Es muy efectiva para proporcionar alivio directo y rápido.',
+  },
+  {
+    question: '¿Por qué debería elegir Mobility Master para mi rehabilitación y alivio del dolor?',
+    answer: 'Porque estamos comprometidos con la salud y bienestar de nuestros pacientes. Nuestro equipo de profesionales utiliza técnicas avanzadas y un enfoque personalizado para ofrecer resultados efectivos y duraderos. ¡Tu movilidad y comodidad son nuestra prioridad!',
+  }
+],
+placeId:"ChIJ3WluE4K6LIQRR6bIbfAFrPE"
 }
 
 /*
