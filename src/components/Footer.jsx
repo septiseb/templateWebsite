@@ -84,8 +84,8 @@ export default function Footer({socialMedia}) {
               ))}
           </div>
           <div className="mt-8 md:order-1 md:mt-0">
-            <p className="text-center text-xs leading-5 text-gray-500">
-              Hecha por Fluxsales ❤️.
+            <p className="text-center text-md leading-5 text-gray-500">
+              Hecha por Fluxsales ❤️
             </p>
           </div>
         </div>
