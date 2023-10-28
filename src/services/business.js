@@ -110,6 +110,7 @@ faqs: [
 placeId:"ChIJzdTjdDBb04UR7bW3Em5cVcc"
 }
 
+
 /*
 {
   title: "John's Pizza Palace",
