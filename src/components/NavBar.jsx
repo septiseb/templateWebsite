@@ -19,9 +19,9 @@ export default function NavBar({phoneNumber, placeId}) {
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Abrir Menu</span>
                     {open ? (
-                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                      <XMarkIcon className="block h-12 w-12" aria-hidden="true" />
                     ) : (
-                      <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                      <Bars3Icon className="block h-12 w-12" aria-hidden="true" />
                     )}
                   </Disclosure.Button>
                 </div>
