@@ -75,19 +75,19 @@ export const business = {
     description:"Doctor Jesus Hinojosa Neumologo en Celaya"
   },
   {
-    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-10-31%20at%203.42.18%20PM%20(1).jpeg",
     description:"Doctor Jesus Hinojosa Neumologo en Celaya"
   },
   {
-    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-10-31%20at%203.42.18%20PM%20(2).jpeg",
     description:"Doctor Jesus Hinojosa Neumologo en Celaya"
   },
   {
-    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-10-12%20at%209.47.48%20AM.jpeg",
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-10-31%20at%203.42.18%20PM.jpeg",
     description:"Doctor Jesus Hinojosa Neumologo en Celaya"
   },
   {
-    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/WhatsApp%20Image%202023-09-13%20at%206.56.20%20PM.jpeg",
+    src:"https://storage.googleapis.com/web-assets-fluxsales/doctorhinojosawebsite/radiografia.jpg",
     description:"Doctor Jesus Hinojosa Neumologo en Celaya"
   }
 ],
