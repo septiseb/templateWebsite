@@ -6,8 +6,8 @@ export const business = {
     keywords: 'Terapia de lenguaje y de habla, oralización para niños pérdidas auditivas, jóvenes y adultos con problemas auditivos',
     author: 'Lic. Maria del Carmen Campos',
     email: 'lah_mx@hotmail.com',
-    image: '',
-    url: '',
+    image: 'Terapia de Lenguaje en Celaya',
+    url: 'terapiacaramelo.netlify.app',
     businessName: 'Lenguaje, Audición y Habla',
     address: {
       streetAddress: ' Coahuila 903, Alameda',
@@ -92,11 +92,11 @@ export const business = {
       {
         question: '¿En qué consiste la Terapia de Lenguaje?',
         answer: 'La Terapia de Lenguaje es un programa especializado que mejora habilidades de comprensión y expresión del lenguaje, abordando gramática, vocabulario y fluidez.',
-      }
+      },
       {
         question: '¿Cómo beneficia la Terapia de Habla (Pronunciación)?',
         answer: 'La Terapia de Habla perfecciona la pronunciación para lograr una comunicación más clara y efectiva, potenciando la confianza en la expresión oral.',
-      }
+      },
       {
         question: '¿Cómo ayuda la Rehabilitación a Jóvenes y Adultos Ensordecidos?',
         answer: 'Ofrecemos apoyo comprensivo en la adaptación a la pérdida auditiva, con estrategias efectivas para recuperar la conexión con el mundo sonoro.',
