@@ -1,134 +1,108 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
-  image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
-  address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
-  },
-  phone: '1234567890',
-  geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
-  },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
-  testimonials: [
-    {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+  title: 'Lenguaje, Audición y Habla',
+    description: 'En Lah, Bienvenido a nuestro espacio dedicado a la Terapia del Lenguaje, donde transformamos las barreras en puentes para una comunicación más fuerte y significativa. Nuestro enfoque único aborda las necesidades de niños, jovenes y adultos con pérdida auditiva que tienen desafíos en la oralización y la lectoescritura.',
+    keywords: 'Terapia de lenguaje y de habla, oralización para niños pérdidas auditivas, jóvenes y adultos con problemas auditivos',
+    author: 'Lic. Maria del Carmen Campos',
+    email: 'lah_mx@hotmail.com',
+    image: '',
+    url: '',
+    businessName: 'Lenguaje, Audición y Habla',
+    address: {
+      streetAddress: ' Coahuila 903, Alameda',
+      addressLocality: 'Celaya',
+      addressRegion: 'Gto',
+      postalCode: '38050',
+      addressCountry: 'Mexico',
+    },
+    phone: '5530109993',
+    geo: {
+      latitude: '20.530817181258914', 
+      longitude: '-100.80800428968116',
+    },
+    openingHours: 'Mo,Tu,We,Th,Fr 09:00-14:00, 16:00-19:45; Sa,Su Closed',
+    socialLinks: [ 
+      'https://www.facebook.com/lenguajeaudicionyhabla/',
+      'https://www.instagram.com/lah_mx/',
+      ],
+    testimonials: [{
+      body: 'Super profesional. Muy honesta y con una increíble paciencia no solo con mi hijo sino también conmigo como mamá ',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Adriana López',
       },
-    },
-    {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+       },{
+      body: 'La mejor terapeuta excelente trabajo muy profesional esta al pendiente  de todos los estudios, audiometrias comportamiento del niño, uno ve avances muy rápido en el habla del niño , muy comprometida en su trabajo',
       rating: 5,
       author: {
-        name: 'Jane Smith',
-      },
-    },
-    {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+        name: 'Erendira González'},
+    },{
+      body: 'Estoy muy contenta de que me recomendaran a la licenciada Carmen, ya que mi hijo tuvo muchos problemas con el lenguaje y no hablaba nada; y desde que acude a terapia con ella, el niño a través de ejercicios diversos, logró hablar y cada vez su pronunciación mejora bastante.',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Abril Rubio',
       },
-    },
-    {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+    },{
+      body: 'Excelente terapeuta de lenguaje y atención de personas con déficit auditivo. El lugar también es maravilloso.',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Beatriz Gomez', 
       },
-    },
-  ],
-  features: [
-    {
-      name: 'Lorem Feature 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 2',
-      description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 3',
-      description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-      icon: TrophyIcon,
-    },
-  ],
-  images: [
-    {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    }],
+    features: [
+      {
+        name: '🗣️ Terapia de Lenguaje',
+        description: 'Mejora tus habilidades de comprensión y expresión del lenguaje. Desde gramática hasta vocabulario y fluidez, desata todo tu potencial lingüístico.',
+        icon: TrophyIcon,
+      },
+      {
+        name: '🎤 Terapia de Habla (Pronunciación)',
+        description: 'Perfecciona la pronunciación para una comunicación clara y efectiva. Transforma tu expresión oral y conquista la confianza en cada palabra.',
+        icon: TrophyIcon,
+      },
+      {
+        name: '👂 Oralización de Niños con Pérdidas Auditivas',
+        description: 'Especialistas en implantes cocleares y aparatos auditivos para potenciar habilidades de comunicación oral y auditiva en niños. Abre las puertas a un mundo sonoro pleno.',
+        icon: TrophyIcon,
+      },
+    ],
+    images:[{
+      src:"https://storage.googleapis.com/web-assets-fluxsales/carameloterapia/WhatsApp%20Image%202023-10-30%20at%206.50.30%20PM%20(1).jpeg",
+      description:"Terapia de Lenguaje en Celaya"
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/carameloterapia/WhatsApp%20Image%202023-10-30%20at%206.50.30%20PM.jpeg",
+      description:"Terapia de Lenguaje en Celaya"
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/carameloterapia/WhatsApp%20Image%202023-11-08%20at%2010.13.38%20AM.jpeg",
+      description:"Terapia de Lenguaje en Celaya"
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/carameloterapia/WhatsApp%20Image%202023-11-08%20at%2010.13.39%20AM%20(1).jpeg",
+      description:"Lenguaje, Audición y Habla"
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
-    },
-    {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/carameloterapia/WhatsApp%20Image%202023-11-08%20at%2010.13.39%20AM.jpeg",
+      description:"Terapia de Lenguaje en Celaya"
     }
   ],
   faqs: [
-    {
-      question: 'Lorem ipsum dolor sit amet?',
-      answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
-    },
-    {
-      question: 'Praesent vitae venenatis leo?',
-      answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
-    },
-    {
-      question: 'Vivamus euismod purus nec ligula?',
-      answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-    },
-  ],
-  placeId: 'LoremIpsumPlaceId12345',
+      {
+        question: '¿En qué consiste la Terapia de Lenguaje?',
+        answer: 'La Terapia de Lenguaje es un programa especializado que mejora habilidades de comprensión y expresión del lenguaje, abordando gramática, vocabulario y fluidez.',
+      }
+      {
+        question: '¿Cómo beneficia la Terapia de Habla (Pronunciación)?',
+        answer: 'La Terapia de Habla perfecciona la pronunciación para lograr una comunicación más clara y efectiva, potenciando la confianza en la expresión oral.',
+      }
+      {
+        question: '¿Cómo ayuda la Rehabilitación a Jóvenes y Adultos Ensordecidos?',
+        answer: 'Ofrecemos apoyo comprensivo en la adaptación a la pérdida auditiva, con estrategias efectivas para recuperar la conexión con el mundo sonoro.',
+      }
+    ],
+    placeId:"ChIJGaKwOxW7LIQRJ0RZP2xk4tc"
 }
 
 
