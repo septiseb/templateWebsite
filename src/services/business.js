@@ -98,7 +98,7 @@ export const business = {
         answer: 'La Terapia de Habla perfecciona la pronunciación para lograr una comunicación más clara y efectiva, potenciando la confianza en la expresión oral.',
       },
       {
-        question: '¿Cómo ayuda la Rehabilitación a Jóvenes y Adultos Ensordecidos?',
+        question: '¿Cómo ayuda la Rehabilitación a Jóvenes y Adultos con pérdida auditiva?',
         answer: 'Ofrecemos apoyo comprensivo en la adaptación a la pérdida auditiva, con estrategias efectivas para recuperar la conexión con el mundo sonoro.',
       }
     ],
