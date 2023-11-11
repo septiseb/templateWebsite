@@ -1,134 +1,113 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+  title: 'Centro Especializado en Medicina Veterinaria',
+  description: 'Mejoramos vidas a través de cuidados médicos excepcionales para tus mascotas. Nuestro equipo altamente capacitado se esfuerza por ofrecer atención ética y cálida, asegurando la excelencia en cada visita. ¡Descubre cómo podemos elevar el bienestar de tus animales hoy!',
+  keywords: 'Medicina Preventiva, Vacunación, Desparasitación, Esterilización, Programas de salud, Alimentacion balanceada, Cirugía y Hospitalización',
+  author: 'Centro Especializado en Medicina Veterinaria',
+  email: 'cemevatencion@gmail.com',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'cemevveterinaria.netlify.app',
+  businessName: 'CEMEV',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'Sauces 301A, Reforma',
+    addressLocality: 'Oaxaca de Juárez',
+    addressRegion: 'Oax',
+    postalCode: '68050',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '9511153839',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '17.08210943888181', 
+    longitude: '-96.71374928972914',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
-  testimonials: [
-    {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-      rating: 5,
-      author: {
-        name: 'John Doe',
-      },
+  openingHours: 'Mo-Su 08:00-20:00',
+  socialLinks: [ 
+    'https://www.facebook.com/cemev.mx?mibextid=LQQJ4d',
+    ],
+  testimonials: [{
+    body: '¡¡¡Excelente atención veterinaria.!!! Llevé a mis 3 huskys y volvieron muy contentos de su baño y revisión. Allí estaremos cada mes.  ✨',
+    rating: 5,
+    author: {
+      name: 'Chrystal Salazar',
     },
-    {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      rating: 5,
-      author: {
-        name: 'Jane Smith',
-      },
+     },{
+    body: 'Tienen la mejor atención para tu mascota, me encantó, nunca habíamos recibido tan excelente trato',
+    rating: 5,
+    author: {
+      name: 'Sebastian Septien'
     },
-    {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
-      rating: 5,
-      author: {
-        name: 'James Bond',
-      },
+  },{
+    body: 'Hay que poner mucha atención a la medicina preventiva, en CEMEV son expertos haciendo esto para tus mascotas',
+    rating: 5,
+    author: {
+      name: 'George',
     },
-    {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
-      rating: 5,
-      author: {
-        name: 'Lucy Heartfilia',
-      },
+  },{
+    body: 'Excelente atención desde que llegué! El médico me dio muy buena explicación del estado de mi Scooby y las recomendaciones para seguir cuidándolo ❤️ me gustó que mi perrito  estuvo muy tranquilo en su revisión.',
+    rating: 5,
+    author: {
+      name: 'Sol', 
     },
-  ],
+  }],
   features: [
     {
-      name: 'Lorem Feature 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+      name: 'Consultas de Especialidad',
+      description: 'Estas en búsqueda de diagnósticos certeros y atención personalizada?. En CEMEV tu mascota esta en manos profesionales con experiencia de nuestro medico especialista para diagnosticar, tratar y prevenir sintomatologías específicas, ofreciéndote un panorama amplio para que juntos alarguemos su bienestar y calidad de vida.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
-      description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+      name: 'Instalaciones Exclusivas',
+      description: 'Reducimos el estrés de tu mascota. En CEMEV estamos conscientes que la visita al médico no es lo máximo, es por esto que ofrecemos instalaciones amigables en sala de espera, recepción, consultorios y hospitalización, pensadas especialmente con espacios asignados por especie canina y felina para mejorar la experiencia de tu visita.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
-      description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+      name: 'Estética Canina y Felina',
+      description: 'Reduce la muda, los enredos, los alergenos y otros problemas que experimente tu mascota en su piel y pelo, aumentando su bienestar y felicidad. Acudir regularmente a la Estética de CEMEV puede convertirse en una experiencia relajante para tu mascota, disfrutara de una buena sesión de cuidado. Área atendida por un profesional que se asegurara de cuidar a tu peludito según sus necesidades y particularidades.',
       icon: TrophyIcon,
     },
+    
   ],
-  images: [
+  images:[{
+    src:"https://storage.googleapis.com/web-assets-fluxsales/cemevveterinaria/WhatsApp%20Image%202023-11-10%20at%2010.54.18%20AM.jpeg",
+    description:"Centro Especializado en Medicina Veterinaria en Oaxaca"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/cemevveterinaria/WhatsApp%20Image%202023-11-10%20at%203.24.13%20PM.jpeg",
+    description:"Centro Especializado en Medicina Veterinaria en Oaxaca"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/cemevveterinaria/WhatsApp%20Image%202023-11-10%20at%203.24.40%20PM.jpeg",
+    description:"Centro Especializado en Medicina Veterinaria en Oaxaca"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/cemevveterinaria/WhatsApp%20Image%202023-11-10%20at%203.25.27%20PM.jpeg",
+    description:"Centro Especializado en Medicina Veterinaria en Oaxaca"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/cemevveterinaria/WhatsApp%20Image%202023-11-10%20at%203.26.33%20PM.jpeg",
+    description:"Centro Especializado en Medicina Veterinaria en Oaxaca"
+  },
+  {
+    src:"https://storage.googleapis.com/web-assets-fluxsales/cemevveterinaria/WhatsApp%20Image%202023-11-10%20at%203.29.46%20PM.jpeg",
+    description:"Centro Especializado en Medicina Veterinaria en Oaxaca"
+  }
+],
+faqs: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      question: '¿Cómo se diferencian las instalaciones de la clínica?',
+      answer: 'Nuestras instalaciones son exclusivas, con consultorios y áreas de hospitalización asignados por especie (canina y felina) para crear un entorno que reduzca el estrés de las mascotas.',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      question: '¿Qué servicios incluye la medicina preventiva?',
+      answer: 'Nuestros servicios de medicina preventiva abarcan vacunación, desparasitación, esterilización, programas de salud personalizados y asesoramiento sobre una alimentación balanceada.',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
-    },
-    {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
-    },
-    {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
-    },
-    {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
+      question: '¿Aceptan emergencias fuera del horario regular?',
+      answer: 'Sí, estamos preparados para atender emergencias. Por favor, comunícate con nosotros para obtener asistencia inmediata.',
     }
   ],
-  faqs: [
-    {
-      question: 'Lorem ipsum dolor sit amet?',
-      answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
-    },
-    {
-      question: 'Praesent vitae venenatis leo?',
-      answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
-    },
-    {
-      question: 'Vivamus euismod purus nec ligula?',
-      answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-    },
-  ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId:"ChIJOzMACCkix4UR8TDYmXk4jQ4"
 }
 
 
