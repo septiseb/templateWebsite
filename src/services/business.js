@@ -1,135 +1,113 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
-export const business = {
-  title: 'Lorem Ipsum',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
-  image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
-  address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+export const business = {title: 'Dra. Yazmin Morales Implantología y Estética Dental',
+description: '¡Descubre la Sonrisa Perfecta con nosotros! Ofrecemos diagnósticos y tratamientos preventivos, limpieza dental, diseño de sonrisa digital, impresiones digitales y tratamientos avanzados como carillas, implantes, restauraciones libres de metal. Transforma tu sonrisa hoy.',
+keywords: 'Diagnóstico y tratamientos preventivos, Limpieza Dental, Diseño de sonrisa digital, carillas, implantes, restauraciones libres de metal',
+author: 'Dra. Yazmin Morales Implantología y Estética Dental',
+email: 'drayazmin.ms@hotmail.com',
+image: '',
+url: '',
+businessName: 'Dra. Yazmin Morales Implantología y Estética Dental',
+address: {
+  streetAddress: 'a Celaya, Plaza 4 Quince Local 5, C. San Miguel Km 3',
+  addressLocality: 'San Miguel de Allende',
+  addressRegion: 'Gto',
+  postalCode: '37700',
+  addressCountry: 'Mexico',
+},
+phone: ' 4151157121',
+geo: {
+  latitude: ' 20.923211545520328',
+  longitude: '-100.757809097904',
+},
+openingHours: 'Mo-Fr 09:00-14:00, Mo-Fr 17:00-19:00, Sa 09:00-14:00',
+socialLinks: [ 
+  'https://www.facebook.com/drayazminmorales/',
+  '',
+  ],
+testimonials: [{
+  body: 'Me encantó la atención de la Dra. Yazmin y lo mejor de todo es como mejoró mi sonrisa.',
+  rating: 5,
+  author: {
+    name: 'Sebastian',
   },
-  phone: '1234567890',
-  geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+   },{
+  body: 'Increíble atención por parte de la Dra. Yazmin. Mi sonrisa nunca ha lucido mejor. ¡Muy agradecido!',
+  rating: 5,
+  author: {
+    name: 'Jorge M'
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
-  testimonials: [
-    {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-      rating: 5,
-      author: {
-        name: 'John Doe',
-      },
-    },
-    {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      rating: 5,
-      author: {
-        name: 'Jane Smith',
-      },
-    },
-    {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
-      rating: 5,
-      author: {
-        name: 'James Bond',
-      },
-    },
-    {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
-      rating: 5,
-      author: {
-        name: 'Lucy Heartfilia',
-      },
-    },
-  ],
-  features: [
-    {
-      name: 'Lorem Feature 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 2',
-      description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 3',
-      description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-      icon: TrophyIcon,
-    },
-  ],
-  images: [
-    {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    },
-    {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
-    },
-    {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
-    },
-    {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
-    },
-    {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
-    },
-    {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
-  ],
-  faqs: [
-    {
-      question: 'Lorem ipsum dolor sit amet?',
-      answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
-    },
-    {
-      question: 'Praesent vitae venenatis leo?',
-      answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
-    },
-    {
-      question: 'Vivamus euismod purus nec ligula?',
-      answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-    },
-  ],
-  placeId: 'LoremIpsumPlaceId12345',
+},{
+  body: 'La Dra. Yazmin es una profesional excepcional. Su atención hizo que mi experiencia dental fuera maravillosa. ¡Mi sonrisa ahora es mi mejor accesorio!',
+  rating: 5,
+  author: {
+    name: 'Valentina',
+  },
+},{
+  body: '',
+  rating: 5,
+  author: {
+    name: '', 
+  },
+}],
+features: [
+  {
+    name: 'Diseño digital de sonrisa',
+    description: 'Mejora tu sonrisa con nuestra previsualización digital. Antes de realizar cambios en tu boca, visualiza tu tratamiento con confianza.',
+    icon: TrophyIcon,
+  },
+  {
+    name: 'Carillas',
+    description: 'Transforma el color y la forma de tus dientes con un diagnóstico preciso y un plan de tratamiento. Logra resultados sorprendentes con un mínimo desgaste dental.',
+    icon: TrophyIcon,
+  },
+  {
+    name: 'Implantes dentales',
+    description: 'Recupera una zona donde has perdido uno o varios dientes de manera fija, sin afectar los dientes adyacentes ni recurrir a prótesis removibles. Descubre una solución de rehabilitación dental sin complicaciones.',
+    icon: TrophyIcon,
+  },
+  
+],
+images:[{
+  src:"",
+  description:"Dra. Yazmin Morales Implantología y Estética Dental"
+},
+{
+  src:"",
+  description:"Dra. Yazmin Morales Implantología y Estética Dental"
+},
+{
+  src:"",
+  description:"Dra. Yazmin Morales Implantología y Estética Dental"
+},
+{
+  src:"",
+  description:"Dra. Yazmin Morales Implantología y Estética Dental"
+},
+{
+  src:"",
+  description:"Dra. Yazmin Morales Implantología y Estética Dental"
+},
+{
+  src:"",
+  description:"Dra. Yazmin Morales Implantología y Estética Dental"
 }
+],
+faqs: [
+  {
+    question: '¿Cuáles son los beneficios de la previsualización digital en tratamientos dentales?',
+    answer: 'La previsualización digital permite a los pacientes visualizar cómo se verá su sonrisa después del tratamiento, brindando confianza y claridad antes de realizar cambios en la boca. Es una herramienta valiosa para personalizar y planificar procedimientos dentales.',
+  },
+  {
+    question: '¿Cómo funciona la transformación dental con un mínimo desgaste dental?',
+    answer: 'La transformación dental con mínimo desgaste implica utilizar técnicas y tecnologías avanzadas que preservan la estructura dental natural. Esto permite cambios estéticos y funcionales sin comprometer la salud de los dientes adyacentes.',
+  },
+  {
+    question: '¿Cómo se diferencia el diseño de sonrisa digital en su enfoque de mejora estética?',
+    answer: 'El diseño de sonrisa digital es una herramienta avanzada que utilizamos para planificar y personalizar tu tratamiento estético. Permite una visualización precisa de los resultados deseados, brindándote una experiencia única y participativa en la transformación de tu sonrisa.',
+  }
+],
+placeId:"ChIJ_aZxFZpRK4QRKXB-zkOazf8"}
 
 
 /*
