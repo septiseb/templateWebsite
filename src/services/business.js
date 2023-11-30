@@ -70,28 +70,28 @@ export const business = {
       
     ],
     images:[{
-      src:"",
-      description:"Nats Café"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/natscafe/WhatsApp%20Image%202023-11-25%20at%208.34.29%20PM.jpeg",
+      description:"Nats Café en Celaya"
     },
     {
-      src:"",
-      description:"Nats Café"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/natscafe/WhatsApp%20Image%202023-11-25%20at%208.34.30%20PM.jpeg",
+      description:"Nats Café en Celaya"
     },
     {
-      src:"",
-      description:"Nats Café"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/natscafe/WhatsApp%20Image%202023-11-25%20at%209.39.44%20AM.jpeg",
+      description:"Nats Café en Celaya"
     },
     {
-      src:"",
-      description:"Nats Café"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/natscafe/WhatsApp%20Image%202023-11-25%20at%209.39.45%20AM.jpeg",
+      description:"Nats Café en Celaya"
     },
     {
-      src:"",
-      description:"Nats Café"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/natscafe/WhatsApp%20Image%202023-11-25%20at%209.39.46%20AM.jpeg",
+      description:"Nats Café en Celaya"
     },
     {
-      src:"",
-      description:"Nats Café"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/natscafe/WhatsApp%20Image%202023-11-25%20at%209.39.47%20AM.jpeg",
+      description:"Nats Café en Celaya"
     }
   ],
   faqs: [
