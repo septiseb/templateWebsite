@@ -98,11 +98,11 @@ faqs: [
   {
     question: '¿Qué hace a Ltrip diferente de otras agencias de viajes?',
     answer: 'En Ltrip, nos destacamos por nuestra atención personalizada y la creación de experiencias únicas. Desde festivales de música hasta eventos deportivos, nos esforzamos por superar las expectativas y convertir cada viaje en una aventura inolvidable.',
-  }
+  },
   {
     question: '¿Cómo seleccionan los destinos para los paquetes de festivales de música?',
     answer: 'Nuestro equipo de expertos busca los festivales más emocionantes y populares globalmente. Seleccionamos destinos que no solo ofrecen experiencias musicales excepcionales, sino también una mezcla única de cultura y entretenimiento.',
-  }
+  },
   {
     question: '¿Ltrip ofrece opciones de financiamiento o planes de pago para sus paquetes?',
     answer: 'Sí, entendemos la importancia de hacer que los sueños de viaje sean accesibles. Ofrecemos opciones de financiamiento y planes de pago flexibles para adaptarnos a las necesidades financieras de nuestros clientes.',
