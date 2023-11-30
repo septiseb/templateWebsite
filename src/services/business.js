@@ -1,136 +1,130 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
+  title: 'Modula & Diseño Carpintería',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
+    'Somos una empresa especializada en el diseño y fabricación de cocinas, closets, vestidores y muebles integrados. Nos dedicamos a transformar espacios con soluciones personalizadas y elegantes, fusionando funcionalidad y estética. Nuestro compromiso radica en crear ambientes que reflejen el estilo y las necesidades únicas de nuestros clientes, utilizando materiales de alta calidad y tecnología innovadora. Desde cocinas modernas hasta closets y vestidores que maximizan el espacio, cada uno de nuestros proyectos es una expresión de excelencia en diseño y artesanía, adaptados a la vida contemporánea.',
   keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+    'Diseño y Fabricación de Mobiliario a Medida, Carpintería Arquitectónica, Acabados de Madera Personalizados, Ebanistería de Alta Calidad, Trabajo con Materiales Sostenibles, Diseño Ergonómico de Muebles, Proyectos Residenciales y Comerciales, Restauración de Piezas de Madera Antiguas',
+  author: 'Modula & Diseño Carpintería',
+  email: 'pascualcollazo10@hotmail.com',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'https://modulacarpinteria.netlify.app/',
+  businessName: 'Modula & Diseño Carpintería',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'pamplona, Cam. Real 115',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38024',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '4737403907',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '20.54611970209006',
+    longitude: '-100.8857687472367',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
+  openingHours: 'Mo-Sa 09:00-19:00',
+  socialLinks: [
+    'https://www.facebook.com/profile.php?id=100063631627916',
+    'https://www.instagram.com/moduldiseg/',
+  ],
   testimonials: [
     {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      body: 'Modula & Diseño ha transformado nuestro hogar con muebles únicos. Cada pieza refleja el amor por la artesanía y el detalle. Estamos felices y agradecidos por hacer de nuestra casa un lugar especial.',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'María González',
       },
     },
     {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      body: 'El equipo de Modula & Diseño superó nuestras expectativas. Cada mueble, desde el diseño hasta la ejecución, es una obra maestra. Trabajar con materiales de alta calidad es su fuerte. ¡Los recomendamos sin dudar!',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Juan Pérez',
       },
     },
     {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+      body: 'Elegir a Modula & Diseño para renovar nuestros espacios fue la mejor decisión. Su experiencia en carpintería se nota en la belleza y funcionalidad de cada elemento. Agradecemos su trabajo excepcional y compromiso con la excelencia.',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Laura Torres',
       },
     },
     {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+      body: 'Modula & Diseño restauró con maestría nuestras piezas antiguas, devolviéndoles su esplendor original. Su dedicación a preservar el valor histórico es evidente en cada detalle. ¡Son verdaderos artesanos!',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Carlos Rodríguez',
       },
     },
   ],
   features: [
     {
-      name: 'Lorem Feature 1',
+      name: 'Diseño y Fabricación de Cocinas Personalizadas',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Transformamos tu cocina en un espacio funcional y estético. Desde el diseño hasta la fabricación, cada elemento es cuidadosamente planeado para satisfacer tus necesidades y reflejar tu estilo único. Creando cocinas que son el corazón de tu hogar.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
+      name: 'Closets a Medida para Organización Perfecta',
       description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Optimizamos tu espacio con closets diseñados a medida. Cada estante, cajón y barra para colgar se adapta a tus necesidades de almacenamiento y organización. Con Modula & Diseño, tus prendas y accesorios encuentran su lugar perfecto.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
+      name: 'Muebles Integrados para Ambientes Armoniosos',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Diseñamos y fabricamos muebles integrados que se fusionan perfectamente con tu espacio. Ya sea en la sala de estar, el dormitorio o la oficina, nuestros muebles están hechos a medida para lograr armonía visual y funcionalidad excepcional.',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/modulacarpinteria/WhatsApp%20Image%202023-10-31%20at%202.07.11%20PM.jpeg',
+      description: 'Modula & Diseño Carpintería',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/modulacarpinteria/WhatsApp%20Image%202023-10-31%20at%202.07.42%20PM.jpeg',
+      description: 'Modula & Diseño Carpintería',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/modulacarpinteria/WhatsApp%20Image%202023-10-31%20at%202.07.43%20PM.jpeg',
+      description: 'Modula & Diseño Carpintería',
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/modulacarpinteria/WhatsApp%20Image%202023-10-31%20at%202.09.13%20PM%20(1).jpeg',
+      description: 'Modula & Diseño Carpintería',
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/modulacarpinteria/WhatsApp%20Image%202023-10-31%20at%202.09.13%20PM.jpeg',
+      description: 'Modula & Diseño Carpintería',
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/modulacarpinteria/WhatsApp%20Image%202023-10-31%20at%202.12.18%20PM.jpeg',
+      description: 'Modula & Diseño Carpintería',
+    },
   ],
   faqs: [
     {
-      question: 'Lorem ipsum dolor sit amet?',
+      question:
+        '¿Qué hace a Modula & Diseño diferente de otras empresas de carpintería?',
       answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
+        'En Modula & Diseño, nos diferenciamos por nuestra artesanía excepcional y la atención personalizada a cada proyecto. Desde el diseño hasta la fabricación, nos comprometemos a crear muebles y espacios únicos que reflejen la individualidad de nuestros clientes.',
     },
     {
-      question: 'Praesent vitae venenatis leo?',
+      question:
+        '¿Cómo eligen los materiales para los proyectos de carpintería?',
       answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
+        'Seleccionamos cuidadosamente los materiales para cada proyecto, priorizando la calidad, durabilidad y sostenibilidad. Trabajamos con una variedad de maderas y otros materiales de alta calidad para garantizar resultados excepcionales en cada creación.',
     },
     {
-      question: 'Vivamus euismod purus nec ligula?',
+      question: '¿Puedo solicitar un diseño personalizado para mis muebles?',
       answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Absolutamente. En Modula & Diseño, nos especializamos en diseños personalizados que se adaptan a tus gustos y necesidades específicas. Trabajamos estrechamente contigo para crear muebles que reflejen tu estilo y complementen tu espacio.',
     },
   ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId: 'ChIJBTawqc-7LIQRCknEoNjSMbM',
 }
-
 
 /*
 {
