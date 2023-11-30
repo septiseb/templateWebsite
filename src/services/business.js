@@ -1,134 +1,114 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
-  image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
-  address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
-  },
-  phone: '1234567890',
-  geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
-  },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
-  testimonials: [
-    {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+  title: 'Nats Café',
+    description: 'En Nats Café, más que café, ofrecemos experiencias culinarias únicas. Desde desayunos revitalizantes hasta cenas excepcionales, fusionamos la pasión por el café con una cocina que deleitará tus sentidos. Y sí, horneamos nuestro propio pan a diario. Descubre un espacio acogedor diseñado para cada momento. Ya sea un rincón tranquilo para tu café matutino o un lugar animado para compartir, cada visita en Nats Café es especial. Explora nuestra propuesta culinaria. Reserva hoy y vive la magia de Nats Café. ¡Bienvenido a tu nuevo lugar favorito!',
+    keywords: 'Bebidas con y sin café, Bebidas calientes frías y frappe, Desayuno Almuerzo (Sandwiches & Bagels), Comidas, Panadería, Postres',
+    author: 'Nats Café',
+    email: 'natscafemx@gmail.com',
+    image: '',
+    url: 'https://natscafe.netlify.app/',
+    businessName: 'Nats Café',
+    address: {
+      streetAddress: 'Agustín Arroyo Chagoyan 205',
+      addressLocality: 'Celaya',
+      addressRegion: 'Gto',
+      postalCode: '38050',
+      addressCountry: 'Mexico',
+    },
+    phone: '4611143705',
+    geo: {
+      latitude: '20.529780402271417',   
+      longitude: '-100.80823239979533',
+    },
+    openingHours: 'Mo-Su 08:00-21:00',
+    socialLinks: [ 
+      'https://www.facebook.com/NatsCafeMx/',
+      'https://www.instagram.com/natscafemx/',
+      ],
+    testimonials: [{
+      body: 'Este lugar se los recomiendo mil, Esta bueno el ambiente y su comida mil de diez',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Alexis Sepulveda',
       },
-    },
-    {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+       },{
+      body: 'Me encantó sentarme afuerita del lugar , para sentir el rico aire y disfrutar mi bebida.',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Socorro Villegas'
       },
-    },
-    {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+    },{
+      body: 'Es una cafetería muy bonita y la atención es excelente,  el menú es variado y muy delicioso. Ideal para una cita de trabajo, lugar de estudio o para pasar un rato agradable rodeado de un ambiente urbano que recuerda a las películas.',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Eliceo Rodriguez',
       },
-    },
-    {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+    },{
+      body: 'Este lugar se ha convertido en uno de mis favoritos, para desayunar en Celaya. La salsa de los chilaquiles es fabulosa. La atención al cliente ni se diga, el personal es muy amable y atento. Detalles como ofrecerte agua en tu llegada, me parece que le da un plus al lugar. En cuestión de panadería, les falta mejorar.',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Mary Tere', 
       },
-    },
-  ],
-  features: [
-    {
-      name: 'Lorem Feature 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 2',
-      description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 3',
-      description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-      icon: TrophyIcon,
-    },
-  ],
-  images: [
-    {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    }],
+    features: [
+      {
+        name: 'Chilaquiles Nats',
+        description: 'Tomamos lo tradicional y lo hacemos a nuestra manera. La salsa, nuestro secreto de la casa, convierte los Chilaquiles Nats en una experiencia única. Descubre la fusión de sabores que solo encontrarás en Nats Café.',
+        icon: TrophyIcon,
+      },
+      {
+        name: 'Panadería Artesanal',
+        description: 'Cada pieza de pan se hornea con maestría en nuestra panadería. Deléitate con nuestras variedades de pan dulce y salado, donde la calidad y el sabor son nuestra especialidad. En Nats Café, cada bocado es una obra de arte culinaria.',
+        icon: TrophyIcon,
+      },
+      {
+        name: 'Servicio de Desayuno',
+        description: 'El desayuno es nuestro favorito. Disfruta de platillos hechos al momento, café delicioso y un servicio de calidad que te hará comenzar el día con energía y satisfacción. En Nats Café, cada desayuno es una experiencia para recordar.',
+        icon: TrophyIcon,
+      },
+      
+    ],
+    images:[{
+      src:"",
+      description:"Nats Café"
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src:"",
+      description:"Nats Café"
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src:"",
+      description:"Nats Café"
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src:"",
+      description:"Nats Café"
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src:"",
+      description:"Nats Café"
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
+      src:"",
+      description:"Nats Café"
     }
   ],
   faqs: [
-    {
-      question: 'Lorem ipsum dolor sit amet?',
-      answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
-    },
-    {
-      question: 'Praesent vitae venenatis leo?',
-      answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
-    },
-    {
-      question: 'Vivamus euismod purus nec ligula?',
-      answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-    },
-  ],
-  placeId: 'LoremIpsumPlaceId12345',
+      {
+        question: '¿Qué hace a Nats Café diferente de otras cafeterías?',
+        answer: 'En Nats Café, nos destacamos por reinventar lo tradicional. Desde nuestros exclusivos Chilaquiles Nats hasta la variedad de panes horneados en nuestra panadería, cada detalle refleja nuestra pasión por ofrecer experiencias culinarias únicas y de alta calidad.',
+      },
+      {
+        question: '¿De dónde proviene la inspiración para los Chilaquiles Nats?',
+        answer: 'La inspiración para nuestros Chilaquiles Nats proviene de una combinación de tradición y creatividad. Nuestra salsa, un secreto de la casa, añade un toque único que transforma este platillo clásico en una experiencia gastronómica inolvidable.',
+      },
+      {
+        question: '¿Qué hace especial a la panadería de Nats Café?',
+        answer: 'En nuestra panadería, cada pieza de pan se hornea con maestría. Ya sea dulce o salado, nos esforzamos por ofrecer panes de alta calidad que complementen tu experiencia en Nats Café. Cada bocado es una deliciosa obra de arte culinaria.',
+      }
+    ],
+    placeId:"ChIJKWZCbvK7LIQRQuWqEtk--E0"
 }
 
 
