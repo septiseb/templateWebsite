@@ -80,28 +80,28 @@ export const business = {
   ],
   images: [
     {
-      src: '',
-      description: 'Zalma Spa',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/zalmaspa/WhatsApp%20Image%202023-12-22%20at%2010.37.18%20AM.jpeg',
+      description: 'Zalma Sp Celaya',
     },
     {
-      src: '',
-      description: 'Zalma Spa',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/zalmaspa/WhatsApp%20Image%202023-12-22%20at%2010.38.03%20AM.jpeg',
+      description: 'Zalma Sp Celaya',
     },
     {
-      src: '',
-      description: 'Zalma Spa',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/zalmaspa/WhatsApp%20Image%202023-12-22%20at%2010.38.21%20AM.jpeg',
+      description: 'Zalma Sp Celaya',
     },
     {
-      src: '',
-      description: 'Zalma Spa',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/zalmaspa/WhatsApp%20Image%202023-12-22%20at%2010.39.38%20AM.jpeg',
+      description: 'Zalma Sp Celaya',
     },
     {
-      src: '',
-      description: 'Zalma Spa',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/zalmaspa/WhatsApp%20Image%202023-12-22%20at%2010.40.28%20AM.jpeg',
+      description: 'Zalma Sp Celaya',
     },
     {
-      src: '',
-      description: 'Zalma Spa',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/zalmaspa/WhatsApp%20Image%202023-12-22%20at%2010.41.28%20AM.jpeg',
+      description: 'Zalma Sp Celaya',
     },
   ],
   faqs: [
