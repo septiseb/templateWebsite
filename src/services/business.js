@@ -8,7 +8,7 @@ export const business = {
     'Control de plagas urbanas, Fumigaciones, Control de Roedores, Fauna nociva, Control de aves, Desinfecciones',
   author: 'Mexiplag',
   email: 'mexiplag@gmail.com',
-  image: '',
+  image: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-19%20at%2011.14.17%20AM.jpeg',
   url: 'https://mexiplag.netlify.app/',
   businessName: 'Mexiplag',
   address: {
@@ -77,27 +77,27 @@ export const business = {
   ],
   images: [
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-09%20at%2012.33.34%20PM.jpeg',
       description: 'Mexiplag',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-09%20at%2012.33.35%20PM.jpeg',
       description: 'Mexiplag',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-19%20at%2011.14.16%20AM-2.jpeg',
       description: 'Mexiplag',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-19%20at%2011.14.16%20AM-3.jpeg',
       description: 'Mexiplag',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-19%20at%2011.14.16%20AM.jpeg',
       description: 'Mexiplag',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/mexiplag/WhatsApp%20Image%202024-01-19%20at%2011.14.17%20AM.jpeg',
       description: 'Mexiplag',
     },
   ],
