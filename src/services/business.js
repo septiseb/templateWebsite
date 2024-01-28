@@ -78,27 +78,27 @@ export const business = {
   images: [
     {
       src: '',
-      description: 'Ruy Castillo',
+      description: 'Ruy Castillo Asesor Financiero',
     },
     {
       src: '',
-      description: 'Ruy Castillo',
+      description: 'Ruy Castillo Asesor Financiero',
     },
     {
       src: '',
-      description: 'Ruy Castillo',
+      description: 'Ruy Castillo Asesor Financiero',
     },
     {
       src: '',
-      description: 'Ruy Castillo',
+      description: 'Ruy Castillo Asesor Financiero',
     },
     {
       src: '',
-      description: 'Ruy Castillo',
+      description: 'Ruy Castillo Asesor Financiero',
     },
     {
       src: '',
-      description: 'Ruy Castillo',
+      description: 'Ruy Castillo Asesor Financiero',
     },
   ],
   faqs: [
