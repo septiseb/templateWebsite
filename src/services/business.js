@@ -1,134 +1,114 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
-  image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
-  address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
-  },
-  phone: '1234567890',
-  geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
-  },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
-  testimonials: [
-    {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+  title: 'Dr. Jonathan Balderas',
+    description: 'Bienvenido a la Excelencia en Odontología con el Dr. Jonathan Balderas: Especialista en Implantología y Estética Oral, Descubre una experiencia dental única, Nuestro compromiso es transformar sonrisas y mejorar la salud bucal de nuestros pacientes.',
+    keywords: 'Implantología oral, Salud Dental, Periodoncia, Endodoncia, Rehabilitación oral, Estética Oral, Ortodoncia, Cirugía Oral',
+    author: 'Dr. Jonathan Balderas',
+    email: 'jebta@hotmail.com',
+    image: '',
+    url: 'https://dr.jonathanbalderas.netlify.app/',
+    businessName: 'Dr. Jonathan Balderas',
+    address: {
+      streetAddress: 'Av. Paseo de los leones 1315 , Colonia cumbres 1 sección',
+      addressLocality: 'Monterrey',
+      addressRegion: 'N.L.',
+      postalCode: '64610',
+      addressCountry: 'Mexico',
+    },
+    phone: '8112899412',
+    geo: {
+      latitude: '25.756934538707508',  
+      longitude: '-100.36152393440383',
+    },
+    openingHours: 'Mo-Fr 09:00-19:00, Sa 09:00-13:00',
+    socialLinks: [ 
+      '',
+      '',
+      ],
+    testimonials: [{
+      body: 'El Dr. Jonathan Balderas ha transformado mi sonrisa y mi confianza. Con su enfoque experto en implantología y estética oral, logró superar mis expectativas. ¡Un servicio excepcional y garantizado!',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Jorge Asdrubal',
       },
-    },
-    {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+       },{
+      body: 'Confío plenamente en el Dr. Balderas. Sus habilidades en implantología y estética oral han asegurado la salud bucal y la sonrisa radiante de mi familia. Eficiencia y resultados excelentes a precios justos. ¡Simplemente excepcionales!',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Alexa G'
       },
-    },
-    {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+    },{
+      body: 'El Dr. Jonathan Balderas ha sido mi guía hacia una sonrisa más saludable y hermosa. Su experiencia en implantología y estética oral supera todas las expectativas. Confío plenamente en su expertise y en su compromiso con resultados de calidad.',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Sebastian Septien',
       },
-    },
-    {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+    },{
+      body: 'Recomiendo ampliamente los servicios del Dr. Balderas. Su asesoramiento en implantología y estética oral ha sido fundamental para mi confianza y bienestar oral. ¡Confía en él, es un verdadero experto!',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Ale Ruiz', 
       },
-    },
-  ],
-  features: [
-    {
-      name: 'Lorem Feature 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 2',
-      description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 3',
-      description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-      icon: TrophyIcon,
-    },
-  ],
-  images: [
-    {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    }],
+    features: [
+      {
+        name: 'Implantes Dentales',
+        description: 'Descubre la solución moderna para reemplazar dientes perdidos: nuestros implantes dentales de titanio. Colocados quirúrgicamente en los huesos maxilares bajo las encías, ofrecen una solución duradera y eficaz para restaurar tu sonrisa. ¡Recupera la confianza en tu masticación y estética dental!',
+        icon: TrophyIcon,
+      },
+      {
+        name: 'Carillas dentales',
+        description: 'Transforma tu sonrisa con nuestras carillas de porcelana, pequeñas láminas que se colocan delicadamente en la parte externa de los dientes. Diseñadas para mejorar la forma, color y tamaño, estas carillas ofrecen una solución estética precisa y elegante. ¡Descubre una sonrisa radiante con el toque artístico de la porcelana!',
+        icon: TrophyIcon,
+      },
+      {
+        name: 'Rehabilitación oral',
+        description: 'Sumérgete en la especialización que busca la renovación instantánea de tus piezas dentales. Nuestro enfoque se centra en devolver la función, estética y armonía a tu sonrisa de manera inmediata. Descubre una experiencia dental transformadora que eleva tu confianza y bienestar oral. ¡Haz que tu sonrisa brille con una renovación dental excepcional!',
+        icon: TrophyIcon,
+      },
+      
+    ],
+    images:[{
+      src:"",
+      description:"Dr. Jonathan Balderas"
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src:"",
+      description:"Dr. Jonathan Balderas"
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src:"",
+      description:"Dr. Jonathan Balderas"
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src:"",
+      description:"Dr. Jonathan Balderas"
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src:"",
+      description:"Dr. Jonathan Balderas"
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
+      src:"",
+      description:"Dr. Jonathan Balderas"
     }
   ],
   faqs: [
-    {
-      question: 'Lorem ipsum dolor sit amet?',
-      answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
-    },
-    {
-      question: 'Praesent vitae venenatis leo?',
-      answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
-    },
-    {
-      question: 'Vivamus euismod purus nec ligula?',
-      answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-    },
-  ],
-  placeId: 'LoremIpsumPlaceId12345',
+      {
+        question: ' ¿La renovación dental inmediata es dolorosa? ',
+        answer: 'No, la mayoría de los procedimientos de renovación dental inmediata se realizan bajo anestesia local para garantizar la comodidad del paciente. Se minimizan las molestias y el tiempo de recuperación.',
+      },
+      {
+        question: '¿Los implantes dentales son seguros? ',
+        answer: 'Sí, los implantes dentales son seguros y están fabricados con titanio, un material biocompatible que se integra naturalmente con el hueso.',
+      },
+      {
+        question: '¿Cómo puedo agendar una consulta para evaluar mis necesidades dentales? ',
+        answer: 'Puedes agendar una consulta llamando a nuestra clínica o utilizando nuestro sistema en línea. Estamos aquí para ayudarte a lograr la sonrisa que deseas.',
+      }
+    ],
+    placeId:"ChIJQXH16i6XYoYRdvi4pCfe1zI"
 }
 
 
