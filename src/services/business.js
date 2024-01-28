@@ -1,136 +1,131 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
+  title: 'Zalma Spa',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
+    'Bienvenido a Zalma Spa, Experimenta la excelencia en tratamientos especializados que abarcan desde la depilación láser diodo hasta la eliminación de tatuajes con láser picosegundo. Descubre el rejuvenecimiento de la piel con el Hollywood Peel y disfruta de servicios como cavitación, radiofrecuencia, vacuum terapia y láser lipólisis para esculpir tu figura y revitalizar tu piel. Sumérgete en la relajación y renueva tu apariencia con nuestros tratamientos de rejuvenecimiento facial con IPL. ¡Descubre una experiencia única para una transformación total en belleza y bienestar!',
   keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+    'Depilación láser diodo, eliminación de manchas con IPL, Hollywood Peel, eliminación de tatuaje con picosecond láser, cavitación,radiofrecuencia facial y coporal, vacuum terapia, láser lipolisis, rejuvenecimiento facial con IPL, masaje relajante y drenaje linfático, limpieza facial profunda.',
+  author: 'Zalma Spa',
+  email: 'zaira.jg@hotmail.com',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'https://zalmaspa.netlify.app/',
+  businessName: 'Zalma Spa',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'Sinaloa 127, Colonia Alameda',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38050',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '4611143432',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '20.533475591219656',
+    longitude: '-100.81425402171146',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
+  openingHours: 'Mo-Fr 09:00-15:00, Sa 09:00-15:00',
+  socialLinks: [
+    'https://www.instagram.com/spa.zalma/?hl=es',
+    'https://www.facebook.com/profile.php?id=61555171417784',
+  ],
   testimonials: [
     {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      body: 'Zalma Spa ha sido mi guía hacia la relajación y la renovación estética. Desde la vacuum terapia hasta el Hollywood Peel, cada sesión es un viaje rejuvenecedor. Confío plenamente en su experiencia y compromiso con la excelencia.',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Sebastian Septien',
       },
     },
     {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      body: 'Excelente atención, muy buen lugar para ir a relajarse! 10/10!',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Ricardo Jiménez',
       },
     },
     {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+      body: '¡Confía en ellos, son verdaderos expertos en belleza y bienestar!',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Alexa Guerrero',
       },
     },
     {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+      body: 'Excelente atención, gran lugar para relajarse',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Jorge Asdrubal',
       },
     },
   ],
   features: [
     {
-      name: 'Lorem Feature 1',
+      name: 'Depilación Láser Diodo',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Diseñado para brindarte resultados efectivos y duraderos, este tratamiento ofrece una solución suave y prácticamente indolora para eliminar el vello no deseado. Olvídate de métodos tradicionales y descubre la comodidad y eficacia de la depilación láser diodo para una piel suave y sin vello. ¡Transforma tu rutina de cuidado personal con Zalma Spa!',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
+      name: 'Hollywood Peel',
       description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Este innovador procedimiento no solo estimula la producción de colágeno y elastina, sino que también elimina manchas, reduce el tamaño de los poros, elimina marcas de acné y unifica el tono de la piel. Descubre la elegancia y la efectividad en un solo tratamiento. Revoluciona tu cuidado de la piel con el toque distintivo del Hollywood Peel en Zalma Spa',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
+      name: 'Cavitación',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Experimenta la revolución en la eliminación de grasa localizada con nuestro tratamiento de Cavitación en Zalma Spa. Este procedimiento indoloro utiliza ultrasonido para descomponer las células de grasa, ofreciendo resultados efectivos sin molestias. Dile adiós a la grasa localizada y da la bienvenida a una figura esculpida con la Cavitación en Zalma Spa. Tu camino hacia una silueta más definida comienza aquí.',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      src: '',
+      description: 'Zalma Spa',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src: '',
+      description: 'Zalma Spa',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src: '',
+      description: 'Zalma Spa',
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src: '',
+      description: 'Zalma Spa',
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src: '',
+      description: 'Zalma Spa',
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
+      src: '',
+      description: 'Zalma Spa',
+    },
   ],
   faqs: [
     {
-      question: 'Lorem ipsum dolor sit amet?',
+      question:
+        ' ¿En qué consiste la Depilación Láser Diodo y cuáles son sus beneficios? ',
       answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
+        'La Depilación Láser Diodo utiliza tecnología avanzada para eliminar el vello no deseado de manera efectiva y duradera. Sus beneficios incluyen resultados prácticamente indoloros y una piel suave.',
     },
     {
-      question: 'Praesent vitae venenatis leo?',
+      question:
+        '¿Qué es el Hollywood Peel y cuáles son sus resultados esperados? ',
       answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
+        'El Hollywood Peel es un tratamiento que estimula la producción de colágeno y elastina, eliminando manchas, reduciendo el tamaño de los poros y unificando el tono de la piel. Los resultados esperados son una piel rejuvenecida y mejorada.',
     },
     {
-      question: 'Vivamus euismod purus nec ligula?',
+      question:
+        '¿Cómo funciona la Cavitación y qué áreas del cuerpo puede tratar? ',
       answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'La Cavitación utiliza ultrasonido para eliminar grasa localizada de manera indolora. Puede tratarse áreas como abdomen, muslos, glúteos y más, ofreciendo una alternativa efectiva a la liposucción.',
     },
   ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId: 'ChIJQ5ELHbK7LIQRt6MX-RuIHig',
 }
-
 
 /*
 {
