@@ -77,27 +77,27 @@ export const business = {
   ],
   images: [
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/ruycastillo/asesores.jpg',
       description: 'Ruy Castillo Asesor Financiero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/ruycastillo/image_123650291-1.JPG',
       description: 'Ruy Castillo Asesor Financiero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/ruycastillo/image_123650291-2.JPG',
       description: 'Ruy Castillo Asesor Financiero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/ruycastillo/image_123650291-3.JPG',
       description: 'Ruy Castillo Asesor Financiero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/ruycastillo/image_123650291.JPG',
       description: 'Ruy Castillo Asesor Financiero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/ruycastillo/image_50418177.JPG',
       description: 'Ruy Castillo Asesor Financiero',
     },
   ],
