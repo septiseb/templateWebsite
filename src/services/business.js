@@ -1,136 +1,141 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
+  title: 'Ruy Castillo',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
+    'Tu socio en Consultoría Financiera y Patrimonial. Especialistas en Planeación Financiera, Ahorro e Inversión, Retiro, Cuentas de Inversión, Seguros de Vida, Estructuración Patrimonial Internacional y Oportunidades para Ciudadanía o Residencia. Confía en nosotros para asegurar tu bienestar financiero. ¡Construyamos juntos tu futuro!',
   keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+    'Consultoría en Planeación Financiera, Planes de ahorro e inversión, Planes de Retiro, Cuentas de Inversión, Seguros de Vida, Estructuración Patrimonial Internacional, Inversiones para Ciudadanía o Residencia',
+  author: 'Ruy Castillo',
+  email: 'ruy@lignum.mx',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'https://ruycastillonasesorfinanciero.netlify.app/',
+  businessName: 'Ruy Castillo',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'Calle Acceso C 109-B, Parque industrial Jurica',
+    addressLocality: 'QuerétarO',
+    addressRegion: 'Qro',
+    postalCode: '76100',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '4423230901',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '',
+    longitude: '',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
+  openingHours: 'Mo-Fr 09:00-18:00, Sa 09:00-14:00',
+  socialLinks: ['', ''],
   testimonials: [
     {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      body: 'Ruy Castillo ha transformado mi enfoque financiero. Con su Consultoría, he logrado metas que parecían inalcanzables. Un servicio excepcional. ¡Garantizado!',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Jorge Asdrubal',
       },
     },
     {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      body: 'Confío plenamente en Ruy Castillo. Sus planes de retiro y asesoramiento en inversiones han asegurado el bienestar financiero de mi familia. Eficiencia y precios justos, ¡simplemente excelentes!',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Alexa G',
       },
     },
     {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+      body: 'Ruy Castillo ha sido mi guía en el camino hacia la estabilidad financiera. Su Consultoría en Planeación Financiera y servicios de Retiro han superado mis expectativas. Confío plenamente en su expertise.',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Sebastian Septien',
       },
     },
     {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+      body: 'Recomiendo ampliamente los servicios de Ruy Castillo. Su asesoramiento en Cuentas de Inversión y Seguros de Vida ha sido fundamental para mi seguridad financiera. ¡Confía en ellos, son expertos!',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Ale Ruiz',
       },
     },
   ],
   features: [
     {
-      name: 'Lorem Feature 1',
+      name: 'Planes de ahorro internacionales, con especial énfasis en el plan de pensión americano; cuentas de inversión en EUA y Europa (UK), seguros de vida en EUA; inversiones en Europa o EUA que permiten obtener ciudadanía o residencia.',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Plan de ahorro americano (Plan S&P 500 con Garantía) de Investors Trust. Es un plan de ahorro e inversión, desde 200 USD por mes con plazos a 10,15 y 20 años. Este producto permite invertir en EUA, siguiendo al índice S&P 500 pero con una garantía de capital y rendimiento. El plazo más contratado es el de 15 años, pues otorga una garantía del 100% del capital + rendimiento de 40% al final del plazo.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
+      name: 'Seguro de Vida y Seguro de Viajes para ciudadanos globales.',
       description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Seguro de vida internacional para expatriados y nómadas digitales. Seguro de Viajes con cobertura amplia para estudiantes, empleados globales y nómadas digitales.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
+      name: 'Ciudadanía o Residencia por Inversión.',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Inversión en inmuebles o fondos en Portugal o España para poder conseguir la Golden Visa. Aparte de generar rendimientos, el inversionista obtiene residencia y una ruta para lograr tener el pasaporte en ese país.',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      src: '',
+      description: 'Ruy Castillo',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src: '',
+      description: 'Ruy Castillo',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src: '',
+      description: 'Ruy Castillo',
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src: '',
+      description: 'Ruy Castillo',
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src: '',
+      description: 'Ruy Castillo',
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
+      src: '',
+      description: 'Ruy Castillo',
+    },
   ],
   faqs: [
     {
-      question: 'Lorem ipsum dolor sit amet?',
+      question: '¿Qué tipos de servicios financieros distintos ofrecen?',
       answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
+        'Ofrecemos una amplia gama de servicios financieros internacionales, que incluyen Planes de Ahorro Global, Inversiones con StoneX, Inmuebles en Florida, Programas CRPI (Ciudadanía o Residencia Por Inversión), y Seguros de Vida con Olé Life.',
     },
     {
-      question: 'Praesent vitae venenatis leo?',
+      question: '¿Cómo puedo acceder a las inversiones globales con StoneX?',
       answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
+        'Con una cuenta desde 25,000 USD, StoneX te conecta con los mercados globales a través de una empresa Fortune 500 con más de 100 años de experiencia.',
     },
     {
-      question: 'Vivamus euismod purus nec ligula?',
+      question:
+        '¿Qué oportunidades ofrece el programa CRPI (Ciudadanía o Residencia Por Inversión)?',
       answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Accede a programas de fondos e inmuebles en España y Portugal. Además, obtén visas de Start-up en Canadá o de Inversionista en EUA.',
     },
     {
-      question: 'Sed fermentum vestibulum justo?',
+      question: '¿Cómo funciona el Seguro de Vida con Olé Life?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Ofrecemos seguros accesibles para proteger a tu familia en caso de fallecimiento, con opciones de contratación remota disponible en toda LATAM.',
     },
     {
-      question: 'Morbi et egestas tortor?',
+      question: '¿Qué diferencia tienen los Planes de Ahorro Global?',
       answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Accede a programas de fondos e inmuebles en España y Portugal. Además, obtén visas de Start-up en Canadá o de Inversionista en EUA.',
+    },
+    {
+      question: ' ¿Ruy Castillo atiende clientes fuera de América Latina?',
+      answer:
+        'Sí, nuestros servicios están disponibles para clientes internacionales que buscan oportunidades financieras globales.',
     },
   ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId: '',
 }
-
 
 /*
 {
