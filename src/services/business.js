@@ -7,7 +7,7 @@ export const business = {
     author: 'Dr. Jonathan Balderas',
     email: 'jebta@hotmail.com',
     image: '',
-    url: 'https://dr.jonathanbalderas.netlify.app/',
+    url: 'https://dentistajonathanbalderas.netlify.app/',
     businessName: 'Dr. Jonathan Balderas',
     address: {
       streetAddress: 'Av. Paseo de los leones 1315 , Colonia cumbres 1 sección',
