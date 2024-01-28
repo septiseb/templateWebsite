@@ -70,28 +70,28 @@ export const business = {
       
     ],
     images:[{
-      src:"",
-      description:"Dr. Jonathan Balderas"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.46%20PM.jpeg",
+      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
     },
     {
-      src:"",
-      description:"Dr. Jonathan Balderas"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.47%20PM%20(1).jpeg",
+      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
     },
     {
-      src:"",
-      description:"Dr. Jonathan Balderas"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.47%20PM.jpeg",
+      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
     },
     {
-      src:"",
-      description:"Dr. Jonathan Balderas"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.48%20PM%20(1).jpeg",
+      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
     },
     {
-      src:"",
-      description:"Dr. Jonathan Balderas"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.48%20PM.jpeg",
+      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
     },
     {
-      src:"",
-      description:"Dr. Jonathan Balderas"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.49%20PM.jpeg",
+      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
     }
   ],
   faqs: [
