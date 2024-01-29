@@ -1,114 +1,114 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Dr. Jonathan Balderas',
-    description: 'Bienvenido a la Excelencia en Odontología con el Dr. Jonathan Balderas: Especialista en Implantología y Estética Oral, Descubre una experiencia dental única, Nuestro compromiso es transformar sonrisas y mejorar la salud bucal de nuestros pacientes.',
-    keywords: 'Implantología oral, Salud Dental, Periodoncia, Endodoncia, Rehabilitación oral, Estética Oral, Ortodoncia, Cirugía Oral',
-    author: 'Dr. Jonathan Balderas',
-    email: 'jebta@hotmail.com',
+  title: 'Muvin Fisioterapia',
+    description: 'Descubre nuestro consultorio especializado con más de 4 años de experiencia, dedicado a la rehabilitación, deporte, ortopedia y salud laboral. Transformamos vidas a través del movimiento. Recibe atención personalizada y experta para superar limitaciones, fortalecer tu cuerpo y alcanzar tu máximo potencial. ¡Bienvenido a una nueva era de salud y bienestar!',
+    keywords: 'Rehabilitación deportiva, rehabilitación ortopédica, rehabilitación laboral, Evaluación por ecografía musculoesqueletica',
+    author: 'Muvin Fisioterapia',
+    email: 'muvin.fisio@gmail.com',
     image: '',
-    url: 'https://dentistajonathanbalderas.netlify.app/',
-    businessName: 'Dr. Jonathan Balderas',
+    url: 'https://muvinfisioterapia.netlify.app/',
+    businessName: 'Muvin Fisioterapia',
     address: {
-      streetAddress: 'Av. Paseo de los leones 1315 , Colonia cumbres 1 sección',
-      addressLocality: 'Monterrey',
-      addressRegion: 'N.L.',
-      postalCode: '64610',
+      streetAddress: 'Querétaro 125, Alameda',
+      addressLocality: 'Celaya',
+      addressRegion: 'Gto',
+      postalCode: '38050',
       addressCountry: 'Mexico',
     },
-    phone: '5218112899412',
+    phone: '5214611796700',
     geo: {
-      latitude: '25.756934538707508',  
-      longitude: '-100.36152393440383',
+      latitude: '20.532153724340372',    
+      longitude: '-100.804805780393',
     },
-    openingHours: 'Mo-Fr 09:00-19:00, Sa 09:00-13:00',
+    openingHours: 'Mo-Fr 08:00-19:00, Sa 09:00-15:00',
     socialLinks: [ 
-      '',
+      'https://www.instagram.com/muvin.fisioterapia/',
       '',
       ],
     testimonials: [{
-      body: 'El Dr. Jonathan Balderas ha transformado mi sonrisa y mi confianza. Con su enfoque experto en implantología y estética oral, logró superar mis expectativas. ¡Un servicio excepcional y garantizado!',
+      body: 'Excelente atención y muy buena ubicación',
       rating: 5,
       author: {
-        name: 'Jorge Asdrubal',
+        name: 'Alejandro',
       },
        },{
-      body: 'Confío plenamente en el Dr. Balderas. Sus habilidades en implantología y estética oral han asegurado la salud bucal y la sonrisa radiante de mi familia. Eficiencia y resultados excelentes a precios justos. ¡Simplemente excepcionales!',
+      body: 'Gran atención, Te explican muy bien el problema por el que esta pasando tu cuerpo y se busca la mejor solución.',
       rating: 5,
       author: {
-        name: 'Alexa G'
+        name: 'Ricardo'
       },
     },{
-      body: 'El Dr. Jonathan Balderas ha sido mi guía hacia una sonrisa más saludable y hermosa. Su experiencia en implantología y estética oral supera todas las expectativas. Confío plenamente en su expertise y en su compromiso con resultados de calidad.',
+      body: 'Excelente atención y las instalaciones están muy completas con una ubicación muy accesible y cuentan con estacionamiento',
       rating: 5,
       author: {
-        name: 'Sebastian Septien',
+        name: 'José Manuel Martínez Rosales',
       },
     },{
-      body: 'Recomiendo ampliamente los servicios del Dr. Balderas. Su asesoramiento en implantología y estética oral ha sido fundamental para mi confianza y bienestar oral. ¡Confía en él, es un verdadero experto!',
+      body: 'Muy recomendable, buena atención por parte de Lau, siempre atenta. El lugar está muy bonito, limpio y seguro. Las descargas musculares son muy buenas, cuida cada detalle de tu sesión',
       rating: 5,
       author: {
-        name: 'Ale Ruiz', 
+        name: 'Aidee Mendez Maldonado', 
       },
     }],
     features: [
       {
-        name: 'Implantes Dentales',
-        description: 'Descubre la solución moderna para reemplazar dientes perdidos: nuestros implantes dentales de titanio. Colocados quirúrgicamente en los huesos maxilares bajo las encías, ofrecen una solución duradera y eficaz para restaurar tu sonrisa. ¡Recupera la confianza en tu masticación y estética dental!',
+        name: 'Electroterapia',
+        description: 'Utilizamos corrientes eléctricas controladas para estimular los músculos y promover la curación. Nuestra tecnología de vanguardia ofrece una experiencia segura y efectiva que puedes disfrutar desde la comodidad de tu hogar',
         icon: TrophyIcon,
       },
       {
-        name: 'Carillas dentales',
-        description: 'Transforma tu sonrisa con nuestras carillas de porcelana, pequeñas láminas que se colocan delicadamente en la parte externa de los dientes. Diseñadas para mejorar la forma, color y tamaño, estas carillas ofrecen una solución estética precisa y elegante. ¡Descubre una sonrisa radiante con el toque artístico de la porcelana!',
+        name: 'Ecografía Musculoesquelética',
+        description: 'Utilizamos esta herramienta avanzada que utiliza ondas de sonido para crear imágenes en tiempo real de los músculos, tendones, ligamentos y articulaciones. Esta tecnología nos permite obtener una comprensión sin igual de la anatomía, facilitando diagnósticos precisos y personalizados.',
         icon: TrophyIcon,
       },
       {
-        name: 'Rehabilitación oral',
-        description: 'Sumérgete en la especialización que busca la renovación instantánea de tus piezas dentales. Nuestro enfoque se centra en devolver la función, estética y armonía a tu sonrisa de manera inmediata. Descubre una experiencia dental transformadora que eleva tu confianza y bienestar oral. ¡Haz que tu sonrisa brille con una renovación dental excepcional!',
+        name: 'Punción seca',
+        description: '¡Libera Tu Cuerpo del Dolor! Descubre la Punción Seca: Tu Solución Rápida y Personalizada para Aliviar Tensiones Musculares. ¡Agenda Ahora y Disfruta de la Libertad de un Cuerpo sin Limitaciones!',
         icon: TrophyIcon,
       },
       
     ],
     images:[{
-      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.46%20PM.jpeg",
-      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/muvin/WhatsApp%20Image%202024-01-28%20at%206.43.10%20PM%20(3).jpeg",
+      description:"Muvin Fisioterapia"
     },
     {
-      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.47%20PM%20(1).jpeg",
-      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/muvin/WhatsApp%20Image%202024-01-28%20at%206.43.10%20PM%20(4).jpeg",
+      description:"Muvin Fisioterapia"
     },
     {
-      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.47%20PM.jpeg",
-      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/muvin/WhatsApp%20Image%202024-01-28%20at%206.43.10%20PM%20(5).jpeg",
+      description:"Muvin Fisioterapia"
     },
     {
-      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.48%20PM%20(1).jpeg",
-      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/muvin/WhatsApp%20Image%202024-01-28%20at%206.43.10%20PM.jpeg ",
+      description:"Muvin Fisioterapia"
     },
     {
-      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.48%20PM.jpeg",
-      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/muvin/WhatsApp%20Image%202024-01-28%20at%206.43.11%20PM%20(1).jpeg",
+      description:"Muvin Fisioterapia"
     },
     {
-      src:"https://storage.googleapis.com/web-assets-fluxsales/dentistajona/WhatsApp%20Image%202024-01-15%20at%201.34.49%20PM.jpeg",
-      description:"Dr. Jonathan Balderas dentista en San Pedro de la Garza , Monterrey"
+      src:"https://storage.googleapis.com/web-assets-fluxsales/muvin/WhatsApp%20Image%202024-01-28%20at%206.43.11%20PM.jpeg",
+      description:"Muvin Fisioterapia"
     }
   ],
   faqs: [
       {
-        question: ' ¿La renovación dental inmediata es dolorosa? ',
-        answer: 'No, la mayoría de los procedimientos de renovación dental inmediata se realizan bajo anestesia local para garantizar la comodidad del paciente. Se minimizan las molestias y el tiempo de recuperación.',
+        question: ' ¿En qué consiste la Electroterapia y cuáles son sus beneficios? ',
+        answer: 'La Electroterapia utiliza corrientes eléctricas controladas para estimular músculos y promover la curación. Beneficios incluyen alivio del dolor, recuperación muscular y mejora del rendimiento deportivo.',
       },
       {
-        question: '¿Los implantes dentales son seguros? ',
-        answer: 'Sí, los implantes dentales son seguros y están fabricados con titanio, un material biocompatible que se integra naturalmente con el hueso.',
+        question: '¿Cómo se realiza una Ecografía Musculoesquelética y por qué es beneficiosa? ',
+        answer: 'La Ecografía Musculoesquelética utiliza ondas de sonido para crear imágenes detalladas de músculos, tendones y articulaciones en tiempo real. Proporciona diagnósticos precisos, guía tratamientos y monitorea cambios durante movimientos.',
       },
       {
-        question: '¿Cómo puedo agendar una consulta para evaluar mis necesidades dentales? ',
-        answer: 'Puedes agendar una consulta llamando a nuestra clínica o utilizando nuestro sistema en línea. Estamos aquí para ayudarte a lograr la sonrisa que deseas.',
+        question: '¿Cuál es la diferencia entre la Punción Seca y otros tratamientos musculares? ',
+        answer: 'La Punción Seca utiliza agujas de acupuntura para tratar puntos gatillo miofasciales, ofreciendo alivio rápido y restauración de la movilidad. A diferencia de otros tratamientos, es personalizada y se centra en puntos específicos.',
       }
     ],
-    placeId:"ChIJQXH16i6XYoYRdvi4pCfe1zI"
+    placeId:"ChIJi0pBH5y7LIQR65LhYs7e4bc"
 }
 
 
