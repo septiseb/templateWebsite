@@ -8,11 +8,11 @@ export default function Galery({ images }) {
           Galería
         </h2>
       </div>
-      <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
-        {images?.map((img) => (
-          <div>
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+        {images?.map((img, idx) => (
+          <div key={idx}>
             <img
-              class="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg"
               src={img.src}
               alt={img.description}
             />
