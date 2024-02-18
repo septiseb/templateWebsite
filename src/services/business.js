@@ -70,27 +70,27 @@ export const business = {
   ],
   images:[{
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9823.jpeg",
-    description:"Rico Restaurante para Desayunar en Celaya"
+    description:"Rico Restaurante para Desayunar en  Alameda Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9919.jpeg",
-    description:"Rico Restaurante para Desayunar en Celaya"
+    description:"Rico Restaurante para Desayunar en  Alameda Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9947.jpg",
-    description:"Rico Restaurante para Desayunar en Celaya"
+    description:"Rico Restaurante para Desayunar en  Alameda Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_9969.jpg",
-    description:"Rico Restaurante para Desayunar en Celaya"
+    description:"Rico Restaurante para Desayunar en  Alameda Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_0012.jpg",
-    description:"Rico Restaurante para Desayunar en Celaya"
+    description:"Rico Restaurante para Desayunar en  Alameda Celaya"
   },
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/lapariswebsite/_MG_0047.jpg",
-    description:"Rico Restaurante para Desayunar en Celaya"
+    description:"Rico Restaurante para Desayunar en  Alameda Celaya"
   }],
   faqs: [
     {
