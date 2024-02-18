@@ -78,23 +78,23 @@ export const business = {
   images: [
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/apdemexico/WhatsApp%20Image%202023-10-26%20at%204.58.36%20PM.jpeg',
-      description: 'Suministros veterinarios para varios animales.',
+      description: 'Suministros veterinarios para varios animales Mexico',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/apdemexico/WhatsApp%20Image%202023-10-26%20at%204.58.37%20PM.jpeg',
-      description: 'Arena para gatos de primera para un ambiente limpio.',
+      description: 'Arena para gatos de primera para un ambiente limpio Mexico.',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/apdemexico/WhatsApp%20Image%202023-10-26%20at%204.58.38%20PM%20(1).jpeg',
-      description: 'Equipos para el sector pecuario.',
+      description: 'Equipos para el sector pecuario Mexico.',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/apdemexico/WhatsApp%20Image%202023-10-26%20at%204.58.38%20PM.jpeg',
-      description: 'Vacunas de calidad para la salud animal.',
+      description: 'Vacunas de calidad para la salud animal Mexico.',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/apdemexico/WhatsApp%20Image%202023-10-26%20at%204.58.39%20PM.jpeg',
-      description: 'Jeringas para aplicaciones veterinarias precisas.',
+      description: 'Jeringas para aplicaciones veterinarias precisas Mexico.',
     },
   ],
   faqs: [
