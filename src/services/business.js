@@ -107,7 +107,7 @@ faqs: [
       answer: 'Sí, estamos preparados para atender emergencias. Por favor, comunícate con nosotros para obtener asistencia inmediata.',
     }
   ],
-  placeId:"ChIJOzMACCkix4UR8TDYmXk4jQ4"
+  placeId:"ChIJUdZFRe8jx4URgD01XOFoqb8"
 }
 
 
