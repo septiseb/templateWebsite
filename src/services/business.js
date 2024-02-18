@@ -80,23 +80,23 @@ export const business = {
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(2).jpeg',
-      description: 'Las mejores Hamburguesas de Celaya',
+      description: 'Las mejores Hamburguesas de la Alemda Celaya',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(3).jpeg',
-      description: 'Deliciosas Hamburguesas en Celaya',
+      description: 'Deliciosas Hamburguesas en  la Alameda Celaya',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM%20(4).jpeg',
-      description: 'Jugosas Hamburguesas en Celaya',
+      description: 'Jugosas Hamburguesas en la Alameda Celaya',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.50%20PM.jpeg',
-      description: 'Grandes Hamburguesas en Celaya',
+      description: 'Grandes Hamburguesas en la Alameda Celaya',
     },
     {
       src: 'https://storage.googleapis.com/web-assets-fluxsales/holyburgerwebsite/WhatsApp%20Image%202023-10-17%20at%206.06.51%20PM.jpeg',
-      description: 'Hamburguesas en Celaya',
+      description: 'Hamburguesas en la Alameda Celaya',
     }
   ],
   faqs: [
