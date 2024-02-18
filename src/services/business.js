@@ -69,28 +69,28 @@ features: [
 images:[
   {
     src:"https://storage.googleapis.com/web-assets-fluxsales/unityfisiowebsite/WhatsApp%20Image%202023-10-18%20at%205.34.13%20PM%20(2).jpeg",
-    description:"UNITY Fisioterapia en Querétaro"
+    description:"UNITY Fisioterapia en Querétaro, Campanario"
   },
   {
   src:"https://storage.googleapis.com/web-assets-fluxsales/unityfisiowebsite/WhatsApp%20Image%202023-10-18%20at%205.34.12%20PM%20(1).jpeg",
-  description:"UNITY Fisioterapia en Querétaro"
+  description:"UNITY Fisioterapia en Querétaro, Campanario"
 },
 {
   src:"https://storage.googleapis.com/web-assets-fluxsales/unityfisiowebsite/WhatsApp%20Image%202023-10-18%20at%205.34.12%20PM.jpeg",
-  description:"UNITY Fisioterapia en Querétaro"
+  description:"UNITY Fisioterapia en Querétaro, Campanario"
 },
 {
   src:"https://storage.googleapis.com/web-assets-fluxsales/unityfisiowebsite/WhatsApp%20Image%202023-10-18%20at%205.34.12%20PM%20(2).jpeg",
-  description:"UNITY Fisioterapia en Querétaro"
+  description:"UNITY Fisioterapia en Querétaro, Campanario"
 },
 
 {
   src:"https://storage.googleapis.com/web-assets-fluxsales/unityfisiowebsite/WhatsApp%20Image%202023-10-18%20at%205.34.13%20PM%20(1).jpeg",
-  description:"UNITY Fisioterapia en Querétaro"
+  description:"UNITY Fisioterapia en Querétaro, Campanario"
 },
 {
   src:"https://storage.googleapis.com/web-assets-fluxsales/unityfisiowebsite/WhatsApp%20Image%202023-10-18%20at%205.34.13%20PM%20(5).jpeg",
-  description:"UNITY Fisioterapia en Querétaro"
+  description:"UNITY Fisioterapia en Querétaro, Campanario"
 }
 ],
 faqs: [
