@@ -79,27 +79,27 @@ export const business = {
   ],
   images: [
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/psicoactivate/WhatsApp%20Image%202024-02-08%20at%206.00.28%20PM.jpeg',
       description: 'Psicoactivate',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/psicoactivate/WhatsApp%20Image%202024-02-13%20at%206.04.32%20PM-2.jpeg',
       description: 'Psicoactivate',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/psicoactivate/WhatsApp%20Image%202024-02-13%20at%206.04.32%20PM.jpeg',
       description: 'Psicoactivate',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/psicoactivate/WhatsApp%20Image%202024-02-13%20at%206.05.29%20PM.jpeg',
       description: 'Psicoactivate',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/psicoactivate/WhatsApp%20Image%202024-02-08%20at%206.00.28%20PM.jpeg',
       description: 'Psicoactivate',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/psicoactivate/WhatsApp%20Image%202024-02-13%20at%206.05.29%20PM.jpeg',
       description: 'Psicoactivate',
     },
   ],
