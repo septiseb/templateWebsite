@@ -1,136 +1,128 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
+  title: 'Psicoactivate',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+    '¡Bienvenido a Psicoactivate! Sumérgete en un oasis de bienestar emocional y mental en nuestro centro de atención psicológica. En Psicoactivate, nuestro compromiso es tu salud mental. Nuestro equipo de profesionales altamente capacitados está aquí para guiarte en tu viaje hacia el equilibrio interior. Descubre un espacio seguro y acogedor donde puedes explorar tus emociones, superar desafíos y potenciar tu crecimiento personal. Ya sea que estés buscando terapia individual, terapia de pareja o apoyo emocional, en Psicoactivate encontrarás las herramientas y el apoyo que necesitas para activar tu potencial y vivir una vida plena y satisfactoria.',
+  keywords: 'Servicio de psicología, Terapia breve, Autorregulación emocional',
+  author: 'Psicoactivate',
+  email: 'psic.difunes@gmail.com',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'https://Psicoactivate.netlify.app/',
+  businessName: 'Psicoactivate',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'Calle nubes, 430',
+    addressLocality: 'León',
+    addressRegion: 'Gto',
+    postalCode: '37160',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '5214772395322',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '21.18516619091881',
+    longitude: '-101.68206138914229',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
+  openingHours: 'Mo-Fr 10:00-19:00, Sa 09:00-15:00',
+  socialLinks: [
+    'https://www.instagram.com/psicoactivate_?igsh=MXJ4M25iaGl5aXhj',
+    '',
+  ],
   testimonials: [
     {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      body: 'Excelente atención, pone atención a cada detalle',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Alejandro',
       },
     },
     {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      body: 'En Psicoactivate, no solo recibí ayuda para comprender mis problemas emocionales, sino que también recibí orientación y apoyo práctico para superarlos. El enfoque comprensivo y experto de mi terapeuta hizo toda la diferencia en mi proceso de sanación.',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Ricardo',
       },
     },
     {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+      body: 'Me impresionó la calidad de atención en Psicoactivate. Desde las instalaciones acogedoras hasta el equipo profesional, todo estaba diseñado para brindar un ambiente de apoyo y cuidado. ¡Gracias por ayudarme a encontrar la claridad y el equilibrio que tanto necesitaba!',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Sebastian Septien',
       },
     },
     {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+      body: 'Desde el primer día, sentí que mi terapeuta en Psicoactivate realmente se preocupaba por entender mis preocupaciones y necesidades. La atención que recibí fue excepcional, y cada sesión se sintió como un paso significativo hacia mi bienestar mental.',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Jorge',
       },
     },
   ],
   features: [
     {
-      name: 'Lorem Feature 1',
+      name: 'Psicología humanista',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Nuestro tratamiento psicológico con enfoque humanista se basa en la creencia de que cada individuo posee recursos internos para el crecimiento personal. Promovemos un ambiente de aceptación y empatía, donde trabajamos junto a ti para explorar tus experiencias y alcanzar tu máximo potencial.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
+      name: 'Autorregulación',
       description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Descubre técnicas y estrategias efectivas para la autorregulación emocional. Aprende a manejar y gestionar tus emociones de manera saludable.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
+      name: 'Terapia breve',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Sesiones centradas en encontrar herramientas prácticas para afrontar los desafíos de la vida diaria',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      src: '',
+      description: 'Psicoactivate',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src: '',
+      description: 'Psicoactivate',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src: '',
+      description: 'Psicoactivate',
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src: '',
+      description: 'Psicoactivate',
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src: '',
+      description: 'Psicoactivate',
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
+      src: '',
+      description: 'Psicoactivate',
+    },
   ],
   faqs: [
     {
-      question: 'Lorem ipsum dolor sit amet?',
+      question: ' ¿Qué implica la terapia breve? ',
       answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
+        'uestras sesiones de terapia breve se enfocan en encontrar herramientas prácticas para afrontar los desafíos de la vida diaria. Trabajamos de manera colaborativa para identificar soluciones específicas y promover cambios positivos en un período de tiempo más corto.',
     },
     {
-      question: 'Praesent vitae venenatis leo?',
+      question:
+        '¿Cuánto tiempo dura el tratamiento psicológico?¿Cuánto tiempo dura el tratamiento psicológico? ',
       answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
+        'La duración del tratamiento puede variar según las necesidades individuales. Nuestro objetivo es proporcionar un apoyo efectivo y centrado en el cliente, adaptando la duración del tratamiento según tus metas y progreso.',
     },
     {
-      question: 'Vivamus euismod purus nec ligula?',
+      question: '¿Qué tipo de problemas pueden abordarse en la terapia?',
       answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Nuestra terapia aborda una amplia gama de problemas emocionales y psicológicos, incluyendo ansiedad, depresión, estrés, problemas de relación y autoestima, entre otros. Estamos aquí para ayudarte a superar los obstáculos que enfrentas en tu vida y alcanzar un mayor bienestar emocional y personal.',
     },
   ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId: 'ChIJK98cyEW_K4QRtPLwY_1fkFk',
 }
-
 
 /*
 {
