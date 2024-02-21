@@ -111,7 +111,7 @@ export const business = {
     },
     {
       question:
-        '¿Cuánto tiempo dura el tratamiento psicológico?¿Cuánto tiempo dura el tratamiento psicológico? ',
+        '¿Cuánto tiempo dura el tratamiento psicológico?',
       answer:
         'La duración del tratamiento puede variar según las necesidades individuales. Nuestro objetivo es proporcionar un apoyo efectivo y centrado en el cliente, adaptando la duración del tratamiento según tus metas y progreso.',
     },
