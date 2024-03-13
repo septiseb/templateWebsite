@@ -1,136 +1,128 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
+  title: 'Sushingao',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
+    'En Sughingao, más que un restaurante, ofrecemos experiencias culinarias únicas. Desde exquisitos platos de sushi hasta auténticas delicias asiáticas, fusionamos la pasión por la cocina oriental con una atención meticulosa a cada detalle. Nuestros chefs expertos preparan sushi fresco a diario y te sorprenderán con nuestra selección de especialidades culinarias. Descubre un espacio acogedor diseñado para cada ocasión. Ya sea que busques un rincón tranquilo para disfrutar de tu comida o un lugar animado para una cena especial con amigos, cada visita en Sughingao es una experiencia memorable. Explora nuestra amplia variedad de platos orientales. ¡Reserva hoy y sumérgete en la magia de Sughingao! ¡Te damos la bienvenida a tu nuevo lugar favorito para disfrutar de la auténtica comida oriental!',
   keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+    'Sushi, Ramen, Yakimeshi, Woks, Postres, Bebidas refrescantes, Café',
+  author: 'Sushingao',
+  email: 'sushingaocelaya@gmail.com',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'https://sushingaocelaya.netlify.app/',
+  businessName: 'Sushingao',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'Vicente Rivapalacio 307',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38050',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '5214611167238',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '20.531073864342467',
+    longitude: '-100.80944086441234',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
+  openingHours: 'Tu-Su 13:30-20:30',
+  socialLinks: [
+    'https://www.instagram.com/sushingaocelaya/',
+    'https://www.facebook.com/SushingaoCYA/',
+  ],
   testimonials: [
     {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      body: 'Todo esta delicioso me encanta :sparkling_heart:, Lo recomiendo muchísimo y están a muy buen precio los rollos y todo lo demás que venden 1000/10 :drooling_face::drooling_face:',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Mariana Nieto',
       },
     },
     {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      body: 'Excelente servicio, es de mis lugares favoritos por tener un menú variado, sabor único y delicioso.',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Jesica Arrieta',
       },
     },
     {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+      body: 'Excelente servicio!!! La comida llegó muy rápido, muy rica y el trato de Cindy ,la chica q nos atendió fue excelente. Muy recomendable :+1:',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Javier Saavedra',
       },
     },
     {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+      body: 'Muy rica la comida volveré otra vez',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Susana Palma',
       },
     },
   ],
   features: [
     {
-      name: 'Lorem Feature 1',
+      name: 'Taiyo Roll',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Sumérgete en una explosión de sabores con nuestro rollo crujiente de camarón empanizado, aguacate y queso manchego, cuidadosamente envuelto y coronado con una irresistible salsa de chipotle. Descubre una combinación perfecta de texturas y aromas que te transportarán a una experiencia culinaria única. ¡Déjate tentar por este manjar exquisito y deleita tu paladar con cada bocado!',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
+      name: 'Ramen Pollo y Arrachera',
       description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Deléitate con nuestro reconfortante caldo oriental, repleto de trozos suculentos de pollo y arrachera, fusionados con verduras frescas y crujientes, todo esto acompañado de delicados fideos que absorben los sabores exóticos de la cocina asiática. Sumérgete en esta experiencia culinaria única que te transportará a tierras lejanas con cada sorbo. ¡Una delicia que no querrás perderte!',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
+      name: 'Yakimeshi Mixto',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Disfruta de nuestro irresistible arroz frito, delicadamente sazonado con la auténtica salsa de soya, que se entrelaza con trozos jugosos de camarón, arrachera y pollo. Acompañado de una mezcla de vegetales frescos como zanahoria, calabaza y cebolla, cada bocado es una explosión de sabores y texturas que te transportarán a los aromas del Lejano Oriente. Sumérgete en esta experiencia gastronómica incomparable y déjate llevar por los sabores de la cocina asiática.',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      src: '',
+      description: 'Sushingao',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src: '',
+      description: 'Sushingao',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src: '',
+      description: 'Sushingao',
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src: '',
+      description: 'Sushingao',
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src: '',
+      description: 'Sushingao',
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
+      src: '',
+      description: 'Sushingao',
+    },
   ],
   faqs: [
     {
-      question: 'Lorem ipsum dolor sit amet?',
+      question: ' ¿Tienen opciones vegetarianas o veganas? ',
       answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
+        'Sí, ofrecemos opciones vegetarianas y veganas en nuestro menú, incluyendo rollos de sushi vegetarianos y platos con tofu como alternativa de proteína.',
     },
     {
-      question: 'Praesent vitae venenatis leo?',
+      question: ' ¿Qué ingredientes utilizan en sus platos? ',
       answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
+        'Utilizamos ingredientes frescos y de alta calidad en todos nuestros platos. Desde el camarón empanizado hasta la arrachera y el pollo, procuramos ofrecer una experiencia culinaria auténtica y sabrosa.',
     },
     {
-      question: 'Vivamus euismod purus nec ligula?',
+      question: '¿Qué tipo de cocina ofrecen en su restaurante? ',
       answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'En nuestro restaurante, ofrecemos una variedad de platos inspirados en la cocina oriental, incluyendo sushi fresco, delicias asiáticas y platos tradicionales como arroz frito y caldo oriental.',
     },
   ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId: 'ChIJ42mb8Em7LIQR3_jQ4xaGFsI',
 }
-
 
 /*
 {
