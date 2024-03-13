@@ -1,136 +1,127 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
+  title: 'Dra. Ana Miriam Guerrero',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
+    '¡Hola! Soy la Dra. Ana Miriam Guerrero, tu pediatra y endocrinóloga pediátrica en Celaya, Guanajuato. Especializada en el cuidado de los más pequeños y en el manejo de trastornos endocrinos en niños y adolescentes. Mi objetivo es proporcionarte una atención médica cercana y de calidad, enfocada en el bienestar integral de tu hijo. ¡Agenda una consulta conmigo hoy mismo y juntos cuidaremos de su salud!',
+  keywords: 'Vacunas, Endocrinología Pediatrica, Pediatría,',
+  author: 'Dra. Ana Miriam Guerrero',
+  email: 'anamiriam18@hotmail.com',
   image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
+  url: 'https://pediatraanitacelaya.netlify.app/',
+  businessName: 'Dra. Ana Miriam Guerrero',
   address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
+    streetAddress: 'Francisco I Madero 104',
+    addressLocality: 'Celaya',
+    addressRegion: 'Gto',
+    postalCode: '38050',
+    addressCountry: 'Mexico',
   },
-  phone: '1234567890',
+  phone: '5214616135950',
   geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
+    latitude: '20.52342422805694',
+    longitude: '-100.81319339207744',
   },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
+  openingHours: 'Mo-Sa 09:00-14:00',
+  socialLinks: ['', ''],
   testimonials: [
     {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      body: 'La mejor doctora super preparada y humana. Mi niño es un niño con síndrome de down le detectaron hipotiroidismo a los 18 mese y ella fue la que lo controlo ya lleva 1 año sin tomar medicamento para la glándula tiroidea ahora mi niño tiene 6 años y es su médico de cabecera la super recomiendo!!',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Ana B',
       },
     },
     {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      body: 'Es buena doctora y atenta con los pacientes es acertada en su diagnóstico y paciente al explicar recomendada',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Magaly',
       },
     },
     {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+      body: 'Muy amable la doctora, me la recomendaron mucho, espero pueda ayudarnos a sacar adelante a la pacientita.',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Oliver R.',
       },
     },
     {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+      body: 'Excelente atención, una revisión a detalle hacia su pacientito, da una explicación muy clara sobre su diagnóstico.',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Mayra',
       },
     },
   ],
   features: [
     {
-      name: 'Lorem Feature 1',
+      name: 'Endocrinología pedriática ',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
+        'Descubre recursos y ayuda para niños enfrentando condiciones como obesidad, talla baja, patología tiroidea, diabetes Mellitus, pubertad precoz y retrasada. Encuentra información confiable y apoyo para guiar a tus hijos hacia un camino de salud y bienestar.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 2',
+      name: 'Pediatría',
       description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'Accede a herramientas para el control de niños sanos, así como a recursos para la vigilancia del crecimiento y la prevención de condiciones comunes como infecciones de vías respiratorias y gastrointestinales. Obtén orientación confiable para mantener a tus hijos saludables y felices.',
       icon: TrophyIcon,
     },
     {
-      name: 'Lorem Feature 3',
+      name: 'Aplicación de Vacunas',
       description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
+        'Explora información y recursos sobre enfermedades comunes en la infancia como varicela, papiloma, influenza, COVID-19, vacunas como SRP y pentavalente. Encuentra orientación confiable para proteger a tus hijos y mantenerlos saludables frente a estas condiciones.',
       icon: TrophyIcon,
     },
   ],
   images: [
     {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      src: '',
+      description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src: '',
+      description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src: '',
+      description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src: '',
+      description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src: '',
+      description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
-    }
+      src: '',
+      description: 'Dra. Ana Miriam Guerrero',
+    },
   ],
   faqs: [
     {
-      question: 'Lorem ipsum dolor sit amet?',
+      question:
+        ' ¿Cuándo debo llevar a mi hijo al médico por una infección de vías respiratorias o gastrointestinal? ',
       answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
+        'Si tu hijo presenta síntomas graves como dificultad para respirar, fiebre alta persistente, vómitos intensos o diarrea con sangre, es importante buscar atención médica de inmediato.',
     },
     {
-      question: 'Praesent vitae venenatis leo?',
+      question:
+        ' ¿Cómo puedo monitorear el crecimiento y desarrollo de mi hijo de manera regular? ',
       answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
+        'El control de niño sano es fundamental. Asegúrate de programar visitas regulares al pediatra, quienes pueden realizar mediciones de crecimiento y desarrollo, así como brindar orientación sobre la nutrición y el cuidado infantil.',
     },
     {
-      question: 'Vivamus euismod purus nec ligula?',
+      question:
+        '¿Qué vacunas incluye el esquema de vacunación SRP y pentavalente? ',
       answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
+        'El SRP incluye la vacuna contra el sarampión, rubéola y paperas, mientras que la pentavalente incluye protección contra difteria, tétanos, tos ferina, Haemophilus influenzae tipo b y hepatitis B. ',
     },
   ],
-  placeId: 'LoremIpsumPlaceId12345',
+  placeId: 'ChIJhbLnwN27LIQRAy9R31iP4to',
 }
-
 
 /*
 {
