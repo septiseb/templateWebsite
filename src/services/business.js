@@ -76,23 +76,23 @@ export const business = {
   ],
   images: [
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/dranamiriam/7e86776c-feliz-dia-del-pediatra.jpg',
       description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/dranamiriam/consoltorio_ana.jpeg',
       description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/dranamiriam/consultorio.jpeg',
       description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/dranamiriam/consultorioDos.jpeg',
       description: 'Dra. Ana Miriam Guerrero',
     },
     {
-      src: '',
+      src: 'https://storage.googleapis.com/web-assets-fluxsales/dranamiriam/doctor-haciendo-su-trabajo-oficina-pediatria.jpg',
       description: 'Dra. Ana Miriam Guerrero',
     },
     {
