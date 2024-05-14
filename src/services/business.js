@@ -1,134 +1,113 @@
 import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
-  title: 'Lorem Ipsum',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis leo. Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Morbi et egestas tortor. Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nulla facilisi.',
-  keywords:
-    'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, vestibulum, praesent, morbi',
-  author: 'Lorem Ipsum - Dolor Sit Amet',
-  email: 'lorem@ipsum.com',
-  image: '',
-  url: '',
-  businessName: 'Lorem Ipsum',
-  address: {
-    streetAddress: '123 Ipsum St.',
-    addressLocality: 'Dolor City',
-    addressRegion: 'Lorem Region',
-    postalCode: '12345',
-    addressCountry: 'Elitland',
-  },
-  phone: '1234567890',
-  geo: {
-    latitude: '12.345678',
-    longitude: '98.765432',
-  },
-  openingHours: "",
-  socialLinks: ["https://www.instagram.com/loremipsum/",""],
-  testimonials: [
-    {
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed lacinia urna, eget imperdiet mauris. Morbi a ante ac lacus fringilla tincidunt at eu nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+  title: 'La Esquina | El último beso',
+    description: 'Nuestra especialidad son los chilaquiles, acompañados de una variedad de auténtica comida mexicana de calle, en un lugar dedicado a deleitar tu paladar.',
+    keywords: 'Chilaquiles, Tortas de milanesa, Tortas de chilaquiles, Comida de calle, Juegos de mesa, Cerveza artesanal',
+    author: 'La Esquina | El último beso',
+    email: 'compras@ultimobeso.mx',
+    image: '',
+    url: 'https://laesquina|ultimobeso.netlify.app/',
+    businessName: 'La Esquina | El último beso',
+    address: {
+      streetAddress: ' Ignacio Manuel Altamirano 115',
+      addressLocality: 'Celaya',
+      addressRegion: 'Gto',
+      postalCode: '38050',
+      addressCountry: 'Mexico',
+    },
+    phone: '5214612777610',
+    geo: {
+      latitude: '20.532828428137258',
+      longitude: ' -100.80796994383732',
+    },
+    openingHours: 'Mo-Su 09:00-21:00',
+    socialLinks: [
+      'https://www.instagram.com/laesquina.celaya/',
+      'https://www.facebook.com/p/La-Esquina-Celaya-100063588338361/',
+      ],
+    testimonials: [{
+      body: 'Los chilaquiles con cualquiera de sus salsas son nuestros favoritos. Creo q se han dado cuenta que nos encanta ir :smile:',
       rating: 5,
       author: {
-        name: 'John Doe',
+        name: 'Paulina Montiel',
       },
-    },
-    {
-      body: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+       },{
+      body: 'Me gusta el lugar porque tiene un concepto diferente, tiene juegos de mesa, es restaurante y cafetería, la comida es muy rica y las bebidas también :yum:',
       rating: 5,
       author: {
-        name: 'Jane Smith',
+        name: 'Ofelia Pichardo'
       },
-    },
-    {
-      body: 'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada. Curabitur vel dui eu augue cursus luctus a non risus. Sed nec sapien quis turpis facilisis congue. Etiam ac neque eu lorem volutpat rhoncus. Maecenas tincidunt, orci ut efficitur eleifend, urna ligula molestie ex, ac porttitor diam urna at lacus.',
+    },{
+      body: 'El pan es un himno a la alegría, una cosa que te vuela la cabeza, el sabor conjugado a la textura te manda por otra pieza. Los chilaquiles merecen media hora de aplausos además de ser una porción generosa la proteína que elijas cumple y con creces; las bebidas calientes 10 de 10',
       rating: 5,
       author: {
-        name: 'James Bond',
+        name: 'Emilio Chuayfett',
       },
-    },
-    {
-      body: 'Sed fermentum vestibulum justo, non lacinia nunc imperdiet at. Nullam a est elit. Integer id mauris nec orci efficitur bibendum non a magna. Vivamus in mollis purus. In vulputate, magna eget vehicula finibus, odio metus ultricies dolor, ac sollicitudin elit orci a dui.',
+    },{
+      body: '¡Excelente lugar para comer! Delicioso y sobre todo las pizzas y chilaquiles. Muy buenas porciones a buen precio',
       rating: 5,
       author: {
-        name: 'Lucy Heartfilia',
+        name: 'Natalia',
       },
-    },
-  ],
-  features: [
-    {
-      name: 'Lorem Feature 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 2',
-      description:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-      icon: TrophyIcon,
-    },
-    {
-      name: 'Lorem Feature 3',
-      description:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-      icon: TrophyIcon,
-    },
-  ],
-  images: [
-    {
-      src: 'https://www.example.com/image1.jpeg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    }],
+    features: [
+      {
+        name: 'Chilaquiles',
+        description: 'Disfruta de nuestros deliciosos chilaquiles con tu elección de salsa roja, verde o morita, cada una preparada con auténticos sabores mexicanos para satisfacer todos los gustos.',
+        icon: TrophyIcon,
+      },
+      {
+        name: 'Tortas Ahogadas',
+        description: 'Sumérgete en el auténtico sabor de nuestras tortas ahogadas, con tres opciones irresistibles: carnitas, carnitas con chicharrón y camarones, cada una acompañada de tu elección entre dos deliciosas salsas: la clásica y la cremosa. ¡Una experiencia que no querrás perderte!',
+        icon: TrophyIcon,
+      },
+      {
+        name: 'Pizzas',
+        description: 'Descubre nuestra amplia selección de pizzas, que van desde las clásicas hasta las más gourmet. Cada una preparada con ingredientes frescos y de la más alta calidad para satisfacer todos los gustos y antojos.',
+        icon: TrophyIcon,
+      },
+    ],
+    images:[{
+      src:"https://storage.googleapis.com/web-assets-fluxsales/ultimobeso/Screenshot%202024-05-14%20at%206.52.04%E2%80%AFAM.png",
+      description:"La Esquina | El último beso"
     },
     {
-      src: 'https://www.example.com/image2.jpeg',
-      description: 'Praesent vitae venenatis leo',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/ultimobeso/Screenshot%202024-05-14%20at%206.52.12%E2%80%AFAM.png",
+      description:"La Esquina | El último beso"
     },
     {
-      src: 'https://www.example.com/image3.jpeg',
-      description: 'Morbi et egestas tortor',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/ultimobeso/Screenshot%202024-05-14%20at%206.52.17%E2%80%AFAM.png",
+      description:"La Esquina | El último beso"
     },
     {
-      src: 'https://www.example.com/image4.jpeg',
-      description: 'Sed fermentum vestibulum justo',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/ultimobeso/Screenshot%202024-05-14%20at%206.52.26%E2%80%AFAM.png",
+      description:"La Esquina | El último beso"
     },
     {
-      src: 'https://www.example.com/image5.jpeg',
-      description: 'Vivamus euismod purus nec ligula hendrerit',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/ultimobeso/Screenshot%202024-05-14%20at%206.52.31%E2%80%AFAM.png",
+      description:"La Esquina | El último beso"
     },
     {
-      src: 'https://www.example.com/image6.jpeg',
-      description: 'Vestibulum ante ipsum primis in faucibus',
+      src:"https://storage.googleapis.com/web-assets-fluxsales/ultimobeso/Screenshot%202024-05-14%20at%206.52.37%E2%80%AFAM.png",
+      description:"La Esquina | El último beso"
     }
   ],
   faqs: [
-    {
-      question: 'Lorem ipsum dolor sit amet?',
-      answer:
-        'Consectetur adipiscing elit. Vivamus euismod purus nec ligula hendrerit.',
-    },
-    {
-      question: 'Praesent vitae venenatis leo?',
-      answer:
-        'Morbi et egestas tortor. Sed fermentum vestibulum justo.',
-    },
-    {
-      question: 'Vivamus euismod purus nec ligula?',
-      answer:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;',
-    },
-    {
-      question: 'Sed fermentum vestibulum justo?',
-      answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et egestas tortor.',
-    },
-    {
-      question: 'Morbi et egestas tortor?',
-      answer:
-        'Vivamus euismod purus nec ligula hendrerit, at fermentum neque malesuada.',
-    },
-  ],
-  placeId: 'LoremIpsumPlaceId12345',
+      {
+        question: '¿Cuáles son sus horarios de atención?',
+        answer: 'Nuestro establecimiento está abierto de lunes a domingo, de 9:00 a.m. a 9:00 p.m.',
+      },
+      {
+        question: '¿Ofrecen opciones para dietas especiales, como vegetarianas o sin gluten?',
+        answer: 'Sí, contamos con opciones vegetarianas y sin gluten en nuestro menú. Además, podemos adaptar muchos de nuestros platillos para satisfacer otras necesidades dietéticas. ¡Pregunta a nuestro personal por las opciones disponibles!',
+      },
+      {
+        question: '¿Tienen servicio a domicilio?',
+        answer: 'Sí, ofrecemos servicio a domicilio',
+      }
+    ],
+    placeId:" ChIJUZNAXmK6LIQRqeXV7DpnZkA"
 }
 
 
