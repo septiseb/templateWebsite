@@ -66,6 +66,11 @@ export const business = {
       description: 'Reduce la muda, los enredos, los alergenos y otros problemas que experimente tu mascota en su piel y pelo, aumentando su bienestar y felicidad. Acudir regularmente a la Estética de CEMEV puede convertirse en una experiencia relajante para tu mascota, disfrutara de una buena sesión de cuidado. Área atendida por un profesional que se asegurara de cuidar a tu peludito según sus necesidades y particularidades.',
       icon: TrophyIcon,
     },
+    {
+        name: '🏆Certificados Oficiales de Salud para Viajar sin Límites en Familia',
+      description: 'Viajar con tu mascota es posible y seguro. En CEMEV contamos con todos los certificados de salud necesarios para que tu mascota pueda acompañarte tanto en viajes dentro de México como al extranjero, autorizados por SENASICA y SADER. Nuestro equipo te asesora paso a paso para que el proceso sea claro y sin complicaciones.',
+      icon: TrophyIcon
+    }
     
   ],
   images:[{
