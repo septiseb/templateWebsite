@@ -67,22 +67,22 @@ export const business = {
       icon: TrophyIcon,
     },
     {
-        name: '🏆Certificados Oficiales de Salud para Viajar sin Límites en Familia',
+        name: 'Certificados Oficiales de Salud para Viajar sin Límites en Familia',
       description: 'Viajar con tu mascota es posible y seguro. En CEMEV contamos con todos los certificados de salud necesarios para que tu mascota pueda acompañarte tanto en viajes dentro de México como al extranjero, autorizados por SENASICA y SADER. Nuestro equipo te asesora paso a paso para que el proceso sea claro y sin complicaciones.',
       icon: TrophyIcon
-    }
+    },
       {
-        name: '🏆Certificado Oficial Libre de del Gusano Barrenador',
+        name: 'Certificado Oficial Libre de del Gusano Barrenador',
       description: 'Requerido para ingresar a Estados Unidos.',
       icon: TrophyIcon
-    }
+    },
       {
-        name: '🏆Certificado Internacional',
+        name: 'Certificado Internacional',
       description: 'Válido para viajes a cualquier país fuera de México.',
       icon: TrophyIcon
-    }
+    },
       {
-        name: '🏆Certificado Nacional',
+        name: 'Certificado Nacional',
       description: 'Necesario para vuelos, autobuses o traslados dentro del país.',
       icon: TrophyIcon
     }
