@@ -2,7 +2,7 @@ import { TrophyIcon } from '@heroicons/react/20/solid'
 
 export const business = {
   title: 'Centro Especializado en Medicina Veterinaria',
-  description: 'Mejoramos vidas a través de cuidados médicos excepcionales para tus mascotas. Nuestro equipo altamente capacitado se esfuerza por ofrecer atención ética y cálida, asegurando la excelencia en cada visita. ¡Descubre cómo podemos elevar el bienestar de tus animales hoy!',
+  description: 'Mejoramos vidas a través de cuidados médicos excepcionales para tus mascotas. Nuestro equipo altamente capacitado se esfuerza por ofrecer atención ética y cálida, asegurando la excelencia en cada visita. ¡Descubre cómo podemos elevar el bienestar de nuestros pacientes hoy!',
   keywords: 'Medicina Preventiva, Vacunación, Desparasitación, Esterilización, Programas de salud, Alimentacion balanceada, Cirugía y Hospitalización',
   author: 'Centro Especializado en Medicina Veterinaria',
   email: 'cemevatencion@gmail.com',
